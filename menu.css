@@ -4,8 +4,14 @@
     	/*margin-top: -3%;
     	margin-left: -20%;*/
     }
+    #logo-holder .text {
+    	padding-top: 50%;
+    }
     #logo-holder2 {
-    	margin-left: 5%;
+    	right: 12%;
+    }
+    #logo-holder .text {
+    	padding-top: 56%;
     } 
 }
 
