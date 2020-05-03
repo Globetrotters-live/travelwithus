@@ -1,0 +1,104 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+body , html {
+	overflow-x: hidden;
+}
+body {
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	color: white;
+}
+
+.pokec_my {
+	overflow-y: hidden;
+}
+#koniec {
+	position: absolute;
+	top: 6000px;
+}
+#logo {
+	position: relative;
+}
+.hlavicka {
+	position: relative;
+	background-color: grey;
+}
+.pracujeme_na {
+	margin: 4%;
+}
+
+.este_pracujeme {
+	font-size: 200%;
+}
+.odrazky_pracujeme {
+	font-size: 180%;
+	padding-top: 4%;
+}
+.line3 {
+	margin-left: 0%;
+	margin-right: 0%;
+	padding-top: 2%;
+	margin-top: 9%;
+	background-color: grey;
+}
+
+.nadpis_cestovatelia {
+	margin-top: 6%;
+	text-align: center;
+	font-size: 250%;
+}
+.pokec_my {
+	float: none;
+}
+
+.osoba1 .pokec_my {
+	float: left;
+	text-align: center;
+}
+.osoba1 {
+	text-align: center;
+	margin-top: 3%;
+	margin-left: -70%;
+}
+
+
+.osoba2 .pokec_my {
+	float: left;
+	text-align: center;
+}
+.osoba2 {
+	text-align: center;
+	margin-top: -32%;
+}
+
+.osoba3 .pokec_my {
+	float: left;
+	text-align: center;
+}
+.osoba3 {
+	text-align: center;
+	margin-top: -30%;
+	margin-left: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

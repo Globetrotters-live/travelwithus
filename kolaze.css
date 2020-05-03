@@ -1,0 +1,95 @@
+.line2 {
+	padding-top: 2%;
+	margin-top: 9%;
+	background-color: grey;
+}
+.kolaze {
+	float: none;
+}
+
+
+.italy_kolaz_img {
+	margin: 3%;
+}
+.italy_kolaz_img:hover {
+  transform: scale(1.1); 
+  }
+
+.italy_div {
+	width: 100%;
+	margin-left: -27%;
+ 	display: block;
+ 	text-align: center;
+ 	font-size: 200%;
+ }
+
+
+.england_kolaz_img:hover {
+	transform: scale(1.1);
+}
+
+.england_div {
+	margin-top: -32.5%;
+	padding-left: 23%;
+	width: 100%;
+ 	display: block;
+ 	text-align: center;
+ 	font-size: 200%;
+}
+.england_nazov {
+	margin-top: 2%;
+}
+
+
+.norway_kolaz_img {
+	margin-left: 1%;
+	margin-top: 10%;
+}
+.norway_kolaz_img:hover {
+  transform: scale(1.1); 
+}
+
+.norway_div {
+	width: 100%;
+	margin-left: -27%;
+ 	display: block;
+ 	text-align: center;
+ 	font-size: 200%;	
+}
+.norway_nazov {
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+
+.denmark_kolaz_img:hover {
+	transform: scale(1.1);
+	margin-right: 3%;
+}
+.denmark_div {
+	width: 100%;
+	margin-left: 23%;
+	margin-top: -34%;
+ 	display: block;
+ 	text-align: center;
+ 	font-size: 200%;	
+}
+.denmark_nazov {
+	margin-top: 2%;
+}
+
+.sweden_kolaz_img:hover {
+  transform: scale(1.1); 
+  }
+
+.sweden_div {
+	width: 100%;
+	margin-left: -27%;
+	margin-top: 6%;
+ 	display: block;
+ 	text-align: center;
+ 	font-size: 200%;	
+}
+.sweden_nazov {
+	margin-top: 2%;
+}

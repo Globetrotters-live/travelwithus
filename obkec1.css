@@ -1,0 +1,42 @@
+.uvod {
+	overflow: hidden;
+	padding-top: 6%;
+	width: 80%;
+	margin: auto;
+	padding-right: 2%;
+}
+
+.uvod_text {
+	width: 15%
+	height:80%;
+	float: left;
+}
+.uvod_text_txt {
+	font-size: 160%;
+}
+
+.uvod_text2 {
+	margin-left: 15%;
+	height: 80%;
+}
+.uvod_text_txt2 {
+	font-size: 170%;
+}
+
+.uvod_obrazky::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.uvod_img {
+	float: left;
+	width: 50%;
+	padding: 2%;
+}
+
+.line {
+	padding-top: 2%;
+	margin-top: 4%;
+	background-color: grey;
+}
