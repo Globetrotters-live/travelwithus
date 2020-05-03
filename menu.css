@@ -5,10 +5,27 @@
     	margin-left: -20%;*/
     }
     #logo-holder .text {
-    	padding-top: 50%;
+    	margin-top: 50%;
     }
+    #logo-holder:hover .text {opacity:1;}
+#logo-holder:hover .image {opacity:0;}
+	#logo-holder2:hover .text2 {opacity:1;}
+#logo-holder2:hover .image2 {opacity:0;}
+	#logo-holder3:hover .text3 {opacity:1;}
+#logo-holder3:hover .image3 {opacity:0;}
+	#logo-holder4:hover .text4 {opacity:1;}
+#logo-holder4:hover .image4 {opacity:0;}
+	#logo-holder5:hover .text5 {opacity:1;}
+#logo-holder5:hover .image5 {opacity:0;}
+
+
+
+
     #logo-holder2 {
     	margin-right: -6%;
+    }
+    #logo-holder3 {
+
     }
 }
 
@@ -28,7 +45,7 @@
 #logo-holder .image {transition: opacity 0.5s ease-in-out;}
 #logo-holder .image {
 	position:absolute;
-	padding-top: 36%;
+	margin-top: 36%;
 	width: 110%;
 	height: 94%;	
 	opacity:0;
@@ -50,7 +67,7 @@
 #logo-holder2 .image2 {transition: opacity 0.5s ease-in-out;}
 #logo-holder2 .image2 {
 	position:absolute;
-	padding-top: 36%;
+	margin-top: 36%;
 	width: 110%;
 	height: 95%;	
 	opacity:0;}
@@ -71,7 +88,7 @@
 #logo-holder3 .image3 {transition: opacity 0.5s ease-in-out;}
 #logo-holder3 .image3 {
 	position:absolute;
-	padding-top: 36%;
+	margin-top: 36%;
 	width: 110%;
 	height: 100%;	
 	opacity:0;}
@@ -92,7 +109,7 @@
 #logo-holder4 .image4 {transition: opacity 0.5s ease-in-out;}
 #logo-holder4 .image4 {
 	position:absolute;
-	padding-top: 165%;
+	margin-top: 165%;
 	width: 120%;
 	height: 52%;	
 	opacity:0;}
@@ -113,7 +130,7 @@
 #logo-holder5 .image5 {transition: opacity 0.5s ease-in-out;}
 #logo-holder5 .image5 {
 	position:absolute;
-	padding-top: 135%;
+	margin-top: 135%;
 	width: 110%;
 	height: 52%;	
 	opacity:0;}
