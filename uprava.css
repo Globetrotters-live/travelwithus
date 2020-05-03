@@ -35,6 +35,22 @@ body {
 	margin: 4%;
 }
 
+
+
+@media screen and (max-width:1090px) {
+
+	.odrazky_pracujeme {
+		margin-left: -18%;
+	}
+	.pracujeme_img {
+		position: relative;
+		top: -120px;
+		right: -3%;
+	}
+
+
+}
+
 .este_pracujeme {
 	font-size: 200%;
 }
@@ -42,6 +58,16 @@ body {
 	font-size: 180%;
 	padding-top: 4%;
 }
+.pracujeme_img {
+	float: right; 
+	margin-right: 5%;
+	margin-top: -33%;
+	margin-bottom: 10%;
+}
+
+
+
+
 .line3 {
 	margin-left: 0%;
 	margin-right: 0%;
@@ -50,44 +76,55 @@ body {
 	background-color: grey;
 }
 
-.nadpis_cestovatelia {
-	margin-top: 6%;
+
+.pokec_my {
+	width: 100%;
+	font-size: 150%;
+}
+.pokec_my .nadpis_cestovatelia {
+
 	text-align: center;
 	font-size: 250%;
-}
-.pokec_my {
-	float: none;
+	padding-bottom: 4%;
 }
 
-.osoba1 .pokec_my {
-	float: left;
-	text-align: center;
+.pokec_my:after {
+  content: "";
+  display: table;
+  clear: both;
 }
+
 .osoba1 {
-	text-align: center;
-	margin-top: 3%;
-	margin-left: -70%;
-}
-
-
-.osoba2 .pokec_my {
 	float: left;
-	text-align: center;
+  	width: 33.33%;
+  	text-align: center;
+
 }
+.osoba1 img {
+	width: 65%;
+}
+
 .osoba2 {
-	text-align: center;
-	margin-top: -32%;
+	float: left;
+  	width: 33.33%;
+  	text-align: center;
 }
 
-.osoba3 .pokec_my {
-	float: left;
-	text-align: center;
+.osoba2 img {
+	width: 87%;
 }
+
+
 .osoba3 {
-	text-align: center;
-	margin-top: -30%;
-	margin-left: 70%;
+	float: left;
+  	width: 33.33%;
+  	text-align: center;
 }
+
+.osoba3 img {
+	width: 65%;
+}
+
 
 
 

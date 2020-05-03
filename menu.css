@@ -1,10 +1,9 @@
 @media screen and (max-width:1090px){
     #logo-holder {
-    	padding-top: 0%;
-    	margin-top: -10%;
+    	margin-right: 4%;
     }
     #logo-holder .text {
-    	margin-top: 50%;
+    	margin-top: 14%;
     }
     #logo-holder:hover .text {opacity:1;}
 #logo-holder:hover .image {opacity:0;}
@@ -22,10 +21,25 @@
 
     #logo-holder2 {
     	margin-right: -6%;
+    	margin-top: -0.9%;
     }
     #logo-holder3 {
-
+    	margin-top: -0.6%;
+    	margin-right: -4%;
     }
+    #logo-holder4 {
+    	margin-top: -3%;
+    	margin-right: -3%;
+    }
+    #logo-holder5 {
+    	margin-top: -3%;
+    	margin-right: -4%;
+    }
+    #logo-holder6 {
+    	margin-top: -3%;
+    	margin-right: -6%;
+    }
+
 }
 
 
@@ -34,19 +48,19 @@
 #logo-holder {
 	position: relative;
  	float: right;
+ 	margin-top: 4.7%;
  	right: 38%;
  }
 #logo-holder .text {
 	font-size: 180%;
-	padding-top: 60%;
 }
 
 #logo-holder .image {transition: opacity 0.5s ease-in-out;}
 #logo-holder .image {
 	position:absolute;
-	margin-top: 36%;
+	margin-top: -23%;
 	width: 110%;
-	height: 94%;	
+	height: 290%;	
 	opacity:0;
 }
 
@@ -98,7 +112,7 @@
 #logo-holder4 {
 	position: relative;
  	float: right;
- 	right: 15%;
+ 	right: 10%;
  }
 #logo-holder4 .text4 {
 	font-size: 180%;
@@ -119,7 +133,7 @@
 #logo-holder5 {
 	position: relative;
  	float: right;
- 	left: 8%;
+ 	left: 13%;
  }
 #logo-holder5 .text5 {
 	font-size: 180%;
@@ -140,7 +154,7 @@
 #logo-holder6 {
 	position: relative;
  	float: right;
- 	left: 29%;
+ 	left: 32%;
  }
 #logo-holder6 .text6 {
 	font-size: 180%;

@@ -1,3 +1,11 @@
+@media screen and (max-width:1090px){
+	.england_kolaz_img {
+		margin-top: -4.5%;
+	}
+	.denmark_kolaz_img {
+		margin-top: -5%;
+	}
+}
 .line2 {
 	padding-top: 2%;
 	margin-top: 9%;
@@ -23,6 +31,9 @@
  	text-align: center;
  	font-size: 200%;
  }
+ .italy_nazov {
+ 	margin-top: -1%;
+ }
 
 
 .england_kolaz_img:hover {
@@ -30,7 +41,7 @@
 }
 
 .england_div {
-	margin-top: -32.5%;
+	margin-top: -31.5%;
 	padding-left: 23%;
 	width: 100%;
  	display: block;
@@ -70,7 +81,7 @@
 .denmark_div {
 	width: 100%;
 	margin-left: 23%;
-	margin-top: -34%;
+	margin-top: -32%;
  	display: block;
  	text-align: center;
  	font-size: 200%;	
