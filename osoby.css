@@ -1,0 +1,58 @@
+.line3 {
+	margin-left: 0%;
+	margin-right: 0%;
+	padding-top: 2%;
+	margin-top: 9%;
+	background-color: grey;
+}
+
+
+.pokec_my {
+	width: 100%;
+	font-size: 150%;
+	padding-bottom: 5%;
+}
+.pokec_my .nadpis_cestovatelia {
+
+	text-align: center;
+	font-size: 250%;
+	padding-bottom: 4%;
+}
+
+.pokec_my:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.osoba1 {
+	float: left;
+  	width: 33.33%;
+  	text-align: center;
+
+}
+.osoba1 img {
+	width: 65%;
+}
+
+.osoba2 {
+	float: left;
+  	width: 33.33%;
+  	text-align: center;
+}
+
+.osoba2 img {
+	width: 87%;
+}
+
+
+.osoba3 {
+	float: left;
+  	width: 33.33%;
+  	text-align: center;
+}
+
+.osoba3 img {
+	width: 65%;
+}
+

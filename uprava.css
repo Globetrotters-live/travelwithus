@@ -20,10 +20,7 @@ body {
 .pokec_my {
 	overflow-y: hidden;
 }
-#koniec {
-	position: absolute;
-	top: 6000px;
-}
+
 #logo {
 	position: relative;
 }
@@ -68,71 +65,62 @@ body {
 
 
 
-.line3 {
-	margin-left: 0%;
-	margin-right: 0%;
-	padding-top: 2%;
-	margin-top: 9%;
+.footer {
 	background-color: grey;
+	height: 150px;
+	position: relative;
+	color: white;
 }
 
-
-.pokec_my {
+.footer .footer-spodok {
+	text-align: center;
+	position: absolute;
+	background-color: rgb(113, 113, 113);
 	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	padding-top: 10px;
+}
+
+.footer .footer-obsah {
+	border: solid;
+	height: 116px;
+}
+.footer-obsah::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.kontakt_nazov {
+	float: left;
+	width: 33.33%;
+	text-align: center;
 	font-size: 150%;
 }
-.pokec_my .nadpis_cestovatelia {
-
+.kontakt_email {
+	float: left;
+	width: 33.33%;
+	margin-top: 2.5%;
 	text-align: center;
-	font-size: 250%;
-	padding-bottom: 4%;
 }
-
-.pokec_my:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.osoba1 {
+.kontakt_text {
 	float: left;
-  	width: 33.33%;
-  	text-align: center;
-
+	width: 33.33%;
+	margin-top: 2.5%;
+	text-align: center;	
 }
-.osoba1 img {
-	width: 65%;
+.email_input {
+	background-color: white;
 }
-
-.osoba2 {
-	float: left;
-  	width: 33.33%;
-  	text-align: center;
+.text_input {
+	background-color: white;
 }
-
-.osoba2 img {
-	width: 87%;
+.submit_input {
+	background:transparent;
+	border: solid;
+	border-color: black;
+	margin-top: 2%;
 }
-
-
-.osoba3 {
-	float: left;
-  	width: 33.33%;
-  	text-align: center;
-}
-
-.osoba3 img {
-	width: 65%;
-}
-
-
-
-
-
-
-
-
-
 
 
 
