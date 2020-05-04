@@ -83,7 +83,6 @@ body {
 }
 
 .footer .footer-obsah {
-	border: solid;
 	height: 116px;
 }
 .footer-obsah::after {
