@@ -1,21 +1,11 @@
 <?php 
 
-	if (isset($_POST['submit'])) {
-		$name = $_POST['email'];
-		$subject = $_POST['subject'];
-		$message = $_POST['message'];
 
+$msg = "First line of text\nSecond line of text";
 
-		$mailTo = "ilovsky.ilovsky@gmail.com";
-		$headers = "From: ".$name;
-		$txt = $message;
-	
+$msg = wordwrap($msg,70);
 
+mail("ilovsky.ilovsky@gmail.com","My subject",$msg);
 
-	mail($mailTo, $subject, $txt, $headers);
-
-	header("Location: index.html");
-
-	}
 
 ?>
