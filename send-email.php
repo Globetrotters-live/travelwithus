@@ -1,25 +1,21 @@
 <?php 
 
-	$name = $_POST['email'];
-	$message = $_POST ['message'];
+	if (isset($_POST['submit'])) {
+		$name = $_POST['email'];
+		$subject = $_POST['subject'];
+		$message = $_POST['message'];
 
-	$email_from = 'EasyTutorials@avinashkr.com';
+
+		$mailTo = "ilovsky.ilovsky@gmail.com";
+		$headers = "From: ".$name;
+		$txt = $message;
 	
-	$email_subject = "Nová Správa"
-	
-	$email_body = "User email: $email.\n".
-						"User Message: $message.\n";
 
 
-	$to = "ilovsky.ilovsky@gmail.com"
-	
-	$headers = "From: $email_from \r\n".
-	
-	$headers .= "Reply-To: $name \r\n";
-
-
-	mail($to,$email_subject,$email_body,$headers);
+	mail($mailTo, $subject, $txt, $headers);
 
 	header("Location: index.html");
+
+	}
 
 ?>

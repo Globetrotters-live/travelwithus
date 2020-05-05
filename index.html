@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<?php  require 'send-email.php' ?>
 	<title>TravelWithUs</title>
 	<link rel="stylesheet" type="text/css" href="uprava.css">
 	<link rel="stylesheet" type="text/css" href="menu.css">
 	<link rel="stylesheet" type="text/css" href="kolaze.css">
 	<link rel="stylesheet" type="text/css" href="obkec1.css">
 	<link rel="stylesheet" type="text/css" href="osoby.css">
+	<link rel="stylesheet" type="php" href="">
 
 </head>
 <body>
@@ -180,6 +182,7 @@
 			<div class="kontakt_nazov">
 				<p>Kontaktuj nás</p>
 				<p>Spýtaj sa na čokoľvek ohľadom cestovania</p>
+			<form id="contact-form" method="post" action="send-email.php">
 
 				<input type="submit" class="submit_input" value="Poslať">
 
@@ -195,7 +198,8 @@
 			<textarea name="message" class="text_input" placeholder="Píš sem..." rows="1" required></textarea>
 
 			</div>
-	</div>
+				</form>
+			</div>
 	
 
 
