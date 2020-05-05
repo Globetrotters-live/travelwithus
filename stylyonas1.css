@@ -1,0 +1,422 @@
+body, html {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.Inter{
+	color:#E8A0B0;
+	text-decoration: none;
+	font-size: 90px;}
+.Inter:hover{
+	border-bottom: 2px solid #e2beae; }
+.firstphoto {
+	background: black;
+	margin-top: 30px;
+
+	
+	}
+.firstphoto::after {
+	content: "";
+	clear: both;
+	display: table;}
+.firstphoto1{
+	float: left;
+	width: 50%;
+	padding: 2%;
+border-radius:100px;}
+.firstphoto3{
+	float: right;
+	width: 50%;
+	padding: 2%;
+border-radius:100px;}
+
+main h2 {
+	text-align: center;
+	margin-top: 120px;}
+
+.uvodnytext :hover {
+		border-bottom: 2px solid #e2beae;}
+.uvodnytext
+	{color:#E8A0B0;
+	text-decoration: none;
+	font-size: 90px;}
+
+.uvodnytext { /*span slúži na oddelenie, od textu ak chceme nieco rozlíšit od hlavného textu a konkretne len jednu vetu alebo slovo */
+background:black;
+color: white;
+	font-size: 60px;
+	border: 10px solid #e2beae;
+	margin-top: 30px;
+	margin-bottom:10px;
+	padding: 5px;
+
+}
+.secondphoto {
+	background:black;
+}
+
+.secondphoto::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.secondphoto1 {
+	float:left;
+	width: 50%;
+	padding:2%;
+}
+
+.imagestext::after {
+content: "";
+clear: both;
+display: table;
+}
+.imagestext1{
+	float: left;
+	width: 80%;
+	padding: 3%;
+
+	margin-left: 70px;
+	border:10px solid white;
+	margin-bottom: 30px;
+	
+}
+
+.text1 {
+	 
+	font-size: 20px;
+	padding: 15px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	text-align: center;
+	border:30px solid #e2beae;
+}
+.photovlak{
+	background-color: pink;
+
+
+}
+.photovlak{
+	display: block; /* obrázok do stredu */
+	margin: 0px auto; 
+	position: relative; /* zarovnám */
+	top: 70px;
+	border:30px solid black;
+	margin-bottom: 7%;
+	margin-top: -2%;
+	border-radius:20px;
+	border-radius: 150px;
+}
+h3
+	{color:#E8A0B0;
+	text-decoration: none;
+	font-size: 90px;}
+
+h3 {
+background:black;
+color: white;
+	font-size: 70px;
+	border: 10px solid #e2beae;
+	margin-top: 30px;
+	padding: 15px;
+	text-align: center;}
+h2{
+	font-size: 70px;
+	text-align: center;
+	border: 10px solid #e2beae;
+	}
+	.odrazky{
+		font-size: 40px;
+		position: relative;
+		color: white;
+		background:#e2beae;
+		border:2px solid black;
+		text-align: center;
+		padding: 15px;
+
+
+	}
+	ul a {
+	color: black;
+	text-decoration: none;}
+   ul a:hover {
+	border-bottom: 2px solid white;
+
+	}
+
+	.projetkyimg{
+		background: black;
+		padding: 35px;
+	}
+	.projetkyimg::after{
+		content: "";
+		clear:both;
+		display:table;
+	}
+	.projetkyimg1{
+		float: left;
+		width: 70%
+		padding:5%;
+		margin-left:70px;
+		border: 20px solid #e2beae;
+	}
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+body , html {
+	overflow-x: hidden;
+}
+body {
+	background:black;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	color: white;
+}
+.hlavicka {
+	position: relative;
+	background-color: black;
+}
+#logo {
+	position: relative;
+		margin-top: 2%;
+		margin-left: 5%;
+		border-radius: 5%;
+}
+@media screen and (max-width:1090px){
+    #logo-holder {
+    	margin-right: 4%;
+    }
+    #logo-holder .text {
+    	margin-top: 14%;
+    }
+    #logo-holder:hover .text {opacity:0;}
+#logo-holder:hover .image {opacity:1;}
+	#logo-holder2:hover .text2 {opacity:0;}
+#logo-holder2:hover .image2 {opacity:1;}
+	#logo-holder3:hover .text3 {opacity:0;}
+#logo-holder3:hover .image3 {opacity:1;}
+	#logo-holder4:hover .text4 {opacity:0;}
+#logo-holder4:hover .image4 {opacity:1;}
+	#logo-holder5:hover .text5 {opacity:0;}
+#logo-holder5:hover .image5 {opacity:1;}
+
+
+
+
+    #logo-holder2 {
+    	margin-right: -6%;
+    	margin-top: -0.9%;
+    }
+    #logo-holder3 {
+    	margin-top: -0.6%;
+    	margin-right: -4%;
+    }
+    #logo-holder4 {
+    	margin-top: -3%;
+    	margin-right: -3%;
+    }
+    #logo-holder5 {
+    	margin-top: -2%;
+    	margin-right: -4%;
+    }
+    #logo-holder6 {
+    	margin-top: -2%;
+    	margin-right: -6%;
+    }
+
+}
+
+
+
+/*prvý obrázok*/
+#logo-holder {
+	position: relative;
+ 	float: right;
+ 	margin-top: 4.7%;
+ 	right: 38%;
+
+ }
+#logo-holder .text {
+	font-size: 180%;
+}
+
+#logo-holder .text {transition: opacity 0.5s ease-in-out;}
+#logo-holder .image {
+	position:absolute;
+	margin-top: -23%;
+	width: 110%;
+	height: 290%;	
+	opacity:1;
+
+}
+
+#logo-holder:hover .text {opacity:1;}
+#logo-holder:hover .image {opacity:0;}
+/*druhý obrázok*/
+#logo-holder2 {
+	position: relative;
+ 	float: right;
+ 	right: 15.5%;
+ }
+#logo-holder2 .text2 {
+	font-size: 180%;
+	padding-top: 66%;
+}
+
+#logo-holder2 .text2 {transition: opacity 0.5s ease-in-out;}
+#logo-holder2 .image2 {
+	position:absolute;
+	margin-top: 36%;
+	width: 110%;
+	height: 95%;	
+	opacity:1;}
+
+#logo-holder2:hover .text {opacity:1;}
+#logo-holder2:hover .image2 {opacity:0;}
+/*tretí obrázok*/
+#logo-holder3 {
+	position: relative;
+ 	float: right;
+ 	left: 8%;
+ }
+#logo-holder3 .text3 {
+	font-size: 180%;
+	padding-top: 71%;
+}
+
+#logo-holder3 .image3 {transition: opacity 0.5s ease-in-out;}
+#logo-holder3 .image3 {
+	position:absolute;
+	margin-top: 36%;
+	width: 110%;
+	height: 100%;	
+	opacity:;}
+
+#logo-holder3:hover .text {opacity:1;}
+#logo-holder3:hover .image3 {opacity:0;}
+/*4. obrzok*/
+#logo-holder4 {
+	position: relative;
+ 	float: right;
+ 	right: 10%;
+ }
+#logo-holder4 .text4 {
+	font-size: 180%;
+	padding-top: 200%;
+}
+
+#logo-holder4 .image4 {transition: opacity 0.5s ease-in-out;}
+#logo-holder4 .image4 {
+	position:absolute;
+	margin-top: 165%;
+	width: 120%;
+	height: 52%;	
+	opacity:;}
+
+#logo-holder4:hover .text {opacity:1;}
+#logo-holder4:hover .image4 {opacity:0;}
+/*5 obrázok*/
+#logo-holder5 {
+	position: relative;
+ 	float: right;
+ 	left: 13%;
+ }
+#logo-holder5 .text5 {
+	font-size: 180%;
+	padding-top: 165%;
+}
+
+#logo-holder5 .image5 {transition: opacity 0.5s ease-in-out;}
+#logo-holder5 .image5 {
+	position:absolute;
+	margin-top: 135%;
+	width: 110%;
+	height: 52%;	
+	opacity:1;}
+
+#logo-holder5:hover .text {opacity:1;}
+#logo-holder5:hover .image5 {opacity:0;}
+/* o nás */
+#logo-holder6 {
+	position: relative;
+ 	float: right;
+ 	left: 32%;
+ }
+#logo-holder6 .text6 {
+	font-size: 180%;
+	padding-top: 235%;
+}
+
+.profilphotos{
+	padding: 4%;
+	
+	background-color: black;
+}
+.profilphotos1{
+	border-style: groove;
+	border-radius: 50px;
+	border-width: 3px;
+	border-color: white;
+	padding: 10px;
+	transition: 5s;}
+.profilphotos:after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.profilphototext2{
+	float: right;
+	text-align: center;
+	width: 68%;
+	margin-top:-29%;
+	padding-left: 50%;
+	text-indent: 50px;
+	font-size: 150%;
+	font-style: italic;
+	text-align: justify;
+ 	padding: 1%;
+ 	border:5px solid pink;
+	border-radius: 20px;}
+
+.profilphotos2:after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.profilphotos2{
+	border-style: groove;
+	border-radius: 50px;
+	border-width: 3px;
+	border-color: white;
+	padding: 10px;
+}
+
+.profilphototext3{
+
+padding: 1%;
+	float: right;
+	text-align: center;
+	width: 52%;
+	margin-top:-28%;
+	
+	text-indent: 50px;
+	font-size: 130%;
+	font-style: italic;
+	text-align: justify;
+	border:5px solid pink;
+	border-radius: 20px;
+
+	}
+	h4{
+		float: left;
+		margin-left: 50px;
+		font-size: 45px;
+		margin-top: 150px;
+		text-align: left;
+	}
