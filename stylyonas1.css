@@ -66,21 +66,7 @@ color: white;
 	padding:2%;
 }
 
-.imagestext::after {
-content: "";
-clear: both;
-display: table;
-}
-.imagestext1{
-	float: left;
-	width: 80%;
-	padding: 3%;
 
-	margin-left: 70px;
-	border:10px solid white;
-	margin-bottom: 30px;
-	
-}
 
 .text1 {
 	 
@@ -412,11 +398,98 @@ padding: 1%;
 	border:5px solid pink;
 	border-radius: 20px;
 
-	}
+	} 
+	/*
 	h4{
 		float: left;
 		margin-left: 50px;
 		font-size: 45px;
 		margin-top: 150px;
 		text-align: left;
+	} */
+	.imagestext:after{
+	content: "";
+	clear: both;
+	display: table;
+
+	}
+	.imagestextone{
+		
+		
+	text-align: left;
+	padding: 3%;
+	}
+	.imagestext:after{
+	content: "";
+	clear: both;
+	display: table;
+
+	}
+.imagestexttwo{
+
+	padding: 3%;
+	text-align: right;
+	
+	}
+	.imagestext:after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.imagestextthree{
+	
+	text-align: left;
+	padding: 3%;
+}
+.profilphototext5{
+
+padding: 1%;
+	float: right;
+	text-align: center;
+	width: 55%;
+	margin-top:-20%;
+	margin-left: 20px;
+	
+	
+	font-size:20px;
+	font-style: italic;
+	text-align: justify;
+	border:5px solid pink;
+	border-radius: 20px;
+
+	}
+	.profilphototext6{
+
+padding: 1%;
+	float: right;
+	text-align: center;
+	width: 55%;
+	margin-top:2%;
+	margin-left: 20px;
+	
+	
+	font-size:20px;
+	font-style: italic;
+	text-align: justify;
+	border:5px solid pink;
+	border-radius: 20px;
+
+	}
+	.profilphototext{
+
+padding: 1%;
+	float: left;
+	text-align: left;
+	width: 40%;
+	margin-bottom:-30%;
+	margin-top:-15%;
+	margin-left: 50px;
+	
+	
+	font-size:17px;
+	font-style: italic;
+	text-align: justify;
+	border:5px solid pink;
+	border-radius: 20px;
+
 	}
