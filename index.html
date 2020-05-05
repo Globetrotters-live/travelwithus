@@ -182,7 +182,7 @@
 			<div class="kontakt_nazov">
 				<p>Kontaktuj nás</p>
 				<p>Spýtaj sa na čokoľvek ohľadom cestovania</p>
-			<form id="contact-form" method="post" action="mailto:ilovsky.ilovsky@gmail.com" enctype="text/plain">
+			<form id="contact-form" method="post" name="contact">
 
 				<input type="submit" class="submit_input" value="Poslať">
 
@@ -200,6 +200,40 @@
 			</div>
 				</form>
 			</div>
+
+
+
+<!-- Contact Form Here -->
+<script>
+	var form = document.forms["contact"];
+	form.addEventListener('submit',contact_submit,false);
+
+	function contact_submit(e) {
+		// Stop Form From Submitting
+		e.preventDefault();
+
+		// Set Initial Variables
+		var target = e.target || e.srcElement;
+		var to = 'ilovsky.ilovsky@gmail.com';
+		var uri = 'mailto:' + to;
+		var body = '';
+
+		// Set Form Values to Variables
+		var name = target.elements['name'].value;
+		var message = target.elements['message'].value;
+
+		// Build Body / Message with all Input Fields
+		body += message + "\r\n\r\n";
+		body += "Name: " + name + "\r\n";
+		body += "Phone Number: " + phone + "\r\n";
+
+		// Build final Mailto URI
+		uri += '&body=' + encodeURIComponent(body);
+
+		// Open Mailto in New Window / Tab
+		window.open(uri,'_blank');
+	}
+</script>
 	
 
 
