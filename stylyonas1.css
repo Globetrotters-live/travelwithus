@@ -157,7 +157,6 @@ h2{
     }
 body , html {
 	overflow-x: hidden;
-	overflow-y: hidden;
 }
 body {
 	background:black;
