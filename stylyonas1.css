@@ -157,6 +157,7 @@ h2{
     }
 body , html {
 	overflow-x: hidden;
+	overflow-y: hidden;
 }
 body {
 	background:black;
@@ -174,49 +175,7 @@ body {
 		margin-left: 5%;
 		border-radius: 5%;
 }
-@media screen and (max-width:1090px){
-    #logo-holder {
-    	margin-right: 4%;
-    }
-    #logo-holder .text {
-    	margin-top: 14%;
-    }
-    #logo-holder:hover .text {opacity:0;}
-#logo-holder:hover .image {opacity:1;}
-	#logo-holder2:hover .text2 {opacity:0;}
-#logo-holder2:hover .image2 {opacity:1;}
-	#logo-holder3:hover .text3 {opacity:0;}
-#logo-holder3:hover .image3 {opacity:1;}
-	#logo-holder4:hover .text4 {opacity:0;}
-#logo-holder4:hover .image4 {opacity:1;}
-	#logo-holder5:hover .text5 {opacity:0;}
-#logo-holder5:hover .image5 {opacity:1;}
 
-
-
-
-    #logo-holder2 {
-    	margin-right: -6%;
-    	margin-top: -0.9%;
-    }
-    #logo-holder3 {
-    	margin-top: -0.6%;
-    	margin-right: -4%;
-    }
-    #logo-holder4 {
-    	margin-top: -3%;
-    	margin-right: -3%;
-    }
-    #logo-holder5 {
-    	margin-top: -2%;
-    	margin-right: -4%;
-    }
-    #logo-holder6 {
-    	margin-top: -2%;
-    	margin-right: -6%;
-    }
-
-}
 
 
 
@@ -274,7 +233,7 @@ body {
 #logo-holder3 .text3 {
 	font-size: 180%;
 	padding-top: 49%;
-	opacity: 0;
+	opacity: 1;
 }
 #logo-holder3 .text3 {transition: opacity 0.5s ease-in-out;}
 #logo-holder3 .image3 {transition: opacity 0.5s ease-in-out;}
@@ -317,7 +276,7 @@ body {
 #logo-holder5 .text5 {
 	font-size: 180%;
 	padding-top: 139%;
-	opacity: 0;
+	opacity: 1;
 }
 #logo-holder5 .text5 {transition: opacity 0.5s ease-in-out;}
 #logo-holder5 .image5 {transition: opacity 0.5s ease-in-out;}
@@ -343,6 +302,73 @@ body {
 	top: 320px;
 	text-decoration: underline;
 }
+
+
+/* VERZIA NA MOBIL */
+
+	@media screen and (max-width:1090px){
+		
+		#logo-holder {
+			padding-top: 2.6%;
+			left: -36%;
+		}
+		#logo-holder .text {
+			margin-right: 5%;
+		}
+		#logo-holder .image {
+			top: 35%;
+			height: 20%;
+		}
+
+
+		/*_____*/
+		#logo-holder2 {
+			left: -10%;
+		}
+		#logo-holder2 .text2 {
+			margin-right: 5%;
+		}
+		#logo-holder2 .image2 {
+			
+		}
+		/*_____*/
+		#logo-holder3 {
+			margin-top: -0.3%;
+			margin-right: -10%;
+		}
+		#logo-holder3 .text3 {
+			margin-right: 5%;
+		}
+		#logo-holder3 .image3 {
+			
+		}
+		/*_____*/
+		#logo-holder4 {
+			margin-top: -4%;
+			margin-right: -4%;
+		}
+		#logo-holder4 .text4 {
+
+		}
+		#logo-holder4 .image4 {
+			
+		}
+		/*_____*/
+		#logo-holder5 {
+			margin-top: -3.9%;
+			margin-right: -5%;
+		}
+		#logo-holder5 .text5 {
+
+		}
+		#logo-holder5 .image5 {
+			
+		}
+		
+		
+}
+
+
 
 .profilphotos{
 	padding: 4%;
@@ -559,9 +585,3 @@ padding: 1%;
 
 	}
 
-
-
-/* VERZIA NA MOBIL */
-
-	@media screen and (max-width:1090px){
-}
