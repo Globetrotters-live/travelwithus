@@ -12,6 +12,10 @@ body {
 	font-weight: 400;
 	color: white;
 }
+a {
+	text-decoration: none;
+	color: white;
+}
 .hlavicka {
 	position: relative;
 	background-color: black;
@@ -72,28 +76,30 @@ body {
 #logo-holder3 {
 	position: relative;
  	float: right;
- 	left: 8%;
+ 	left: 10.5%;
  }
 #logo-holder3 .text3 {
 	font-size: 180%;
-	padding-top: 71%;
+	padding-top: 46%;
+	opacity: 0;
 }
-
+#logo-holder3 .text3 {transition: opacity 0.5s ease-in-out;}
 #logo-holder3 .image3 {transition: opacity 0.5s ease-in-out;}
 #logo-holder3 .image3 {
 	position:absolute;
-	margin-top: 36%;
-	width: 110%;
-	height: 76%;	
-	opacity:1;}
+	margin-top: 23%;
+	width: 90%;
+	height: 74%;	
+	opacity:1;
+}
 
-#logo-holder3:hover .text {opacity:1;}
+#logo-holder3:hover .text3 {opacity:1;}
 #logo-holder3:hover .image3 {opacity:0;}
 /*4. obrzok*/
 #logo-holder4 {
 	position: relative;
  	float: right;
- 	right: 11.5%;
+ 	right: 8%;
  }
 #logo-holder4 .text4 {
 	font-size: 180%;
@@ -115,35 +121,54 @@ body {
 #logo-holder5 {
 	position: relative;
  	float: right;
- 	left: 12.3%;
+ 	left: 17.4%;
  }
 #logo-holder5 .text5 {
 	font-size: 180%;
-	padding-top: 180%;
+	padding-top: 130%;
+	opacity: 0;
 }
-
+#logo-holder5 .text5 {transition: opacity 0.5s ease-in-out;}
 #logo-holder5 .image5 {transition: opacity 0.5s ease-in-out;}
 #logo-holder5 .image5 {
 	position:absolute;
-	margin-top: 152%;
-	width: 110%;
+	margin-top: 115%;
+	width: 95%;
 	height: 47%;	
 	opacity:1;}
 
-#logo-holder5:hover .text {opacity:1;}
+#logo-holder5:hover .text5 {opacity:1;}
 #logo-holder5:hover .image5 {opacity:0;}
 /* o nás */
 #logo-holder6 {
 	position: relative;
  	float: right;
- 	left: 10%;
+ 	left: 16%;
  }
 #logo-holder6 .text6 {
+	position: relative;
 	font-size: 180%;
-	padding-top: 400%;
+	top: 325px;
 
 }
+#logo-holder6 a:hover {
+	text-decoration: underline;
+}
+#logo-holder7 a:hover {
+	text-decoration: underline;
+}
+#logo-holder7 {
+	position: relative;
+ 	float: right;
+ 	left: 12.5%;
+ }
+#logo-holder7 .text7 {
+	position: absolute;
+	font-size: 180%;
+	top: 380px;
+	width: 200px;
 
+}
 
 
 .line1 {
