@@ -303,73 +303,6 @@ body {
 }
 
 
-/* VERZIA NA MOBIL */
-
-	@media screen and (max-width:1090px){
-		
-		#logo-holder {
-			padding-top: 2.6%;
-			left: -36%;
-		}
-		#logo-holder .text {
-			margin-right: 5%;
-		}
-		#logo-holder .image {
-			top: 37%;
-			height: 165%;
-		}
-
-
-		/*_____*/
-		#logo-holder2 {
-			left: -7%;
-		}
-		#logo-holder2 .text2 {
-			margin-right: 5%;
-		}
-		#logo-holder2 .image2 {
-			
-		}
-		/*_____*/
-		#logo-holder3 {
-			margin-right: -15%;
-		}
-		#logo-holder3 .text3 {
-			margin-right: 5%;
-		}
-		#logo-holder3 .image3 {
-			
-		}
-		/*_____*/
-		#logo-holder4 {
-			margin-right: -2%;
-		}
-		#logo-holder4 .text4 {
-
-		}
-		#logo-holder4 .image4 {
-			
-		}
-		/*_____*/
-		#logo-holder5 {
-			margin-right: -5%;
-			padding-top: 0%;
-			margin-top: 0%;
-			top: 5px;
-			height: 240px;
-		}
-		#logo-holder5 .text5 {
-
-		}
-		#logo-holder5 .image5 {
-			margin-top: 0%;
-			top: 60%;
-		}
-		
-		
-}
-
-
 
 .profilphotos{
 	padding: 4%;
@@ -586,3 +519,79 @@ padding: 1%;
 
 	}
 
+/* VERZIA NA MOBIL */
+
+	@media screen and (max-width:1090px){
+		
+		#logo-holder {
+			padding-top: 2.6%;
+			left: -36%;
+		}
+		#logo-holder .text {
+			margin-right: 5%;
+		}
+		#logo-holder .image {
+			top: 37%;
+			height: 165%;
+		}
+
+
+		/*_____*/
+		#logo-holder2 {
+			left: -7%;
+		}
+		#logo-holder2 .text2 {
+			margin-right: 5%;
+		}
+		#logo-holder2 .image2 {
+			
+		}
+		/*_____*/
+		#logo-holder3 {
+			margin-right: -15%;
+		}
+		#logo-holder3 .text3 {
+			margin-right: 5%;
+		}
+		#logo-holder3 .image3 {
+			
+		}
+		/*_____*/
+		#logo-holder4 {
+			margin-right: -2%;
+		}
+		#logo-holder4 .text4 {
+
+		}
+		#logo-holder4 .image4 {
+			
+		}
+		/*_____*/
+		#logo-holder5 {
+			margin-right: -5%;
+			padding-top: 0%;
+			margin-top: 0%;
+			top: 5px;
+			height: 240px;
+		}
+		#logo-holder5 .text5 {
+
+		}
+		#logo-holder5 .image5 {
+			margin-top: 0%;
+			top: 60%;
+		}
+		#logo-holder6 .text6 {
+			top: 290px;
+			left: 44%;
+		}
+		
+		/*__________________*/
+
+		.firstphoto {
+			background: black;
+			margin-top: 100px;
+		}
+		.text1 {
+			font-size: 80%;
+		}
