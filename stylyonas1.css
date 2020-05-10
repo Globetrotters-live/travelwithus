@@ -343,7 +343,18 @@ body {
 	border-width: 3px;
 	border-color: white;
 	padding: 10px;
-	transition: 5s;}
+	transition: 5s;
+	width: 20%;
+}
+.profilphotos3 {
+	border-style: groove;
+	border-radius: 50px;
+	border-width: 3px;
+	border-color: white;
+	padding: 10px;
+	transition: 5s;
+	width: 25%;	
+}
 .profilphotos:after{
 	content: "";
 	clear: both;
@@ -361,7 +372,22 @@ body {
 	text-align: justify;
  	padding: 1%;
  	border:5px solid pink;
-	border-radius: 20px;}
+	border-radius: 20px;
+}
+.profilphototext4{
+	float: right;
+	text-align: center;
+	width: 68%;
+	margin-top:-29%;
+	padding-left: 50%;
+	text-indent: 50px;
+	font-size: 150%;
+	font-style: italic;
+	text-align: justify;
+ 	padding: 1%;
+ 	border:5px solid pink;
+	border-radius: 20px;
+}
 
 .profilphotos2:after{
 	content: "";
@@ -672,61 +698,77 @@ padding: 1%;
 		text-align: center;
 		padding: 15px;	
 	}
+
+	.imagestext1 {
+		margin-top: 20%;
+	}
+	.profilphototext5 {
+		margin-top: -35%;
+	}
+	.profilphototext6 {
+		margin-top: -35%;
+	}
+	.imagestext2 {
+		margin-top: 15%;
+	}
+	.profilphototext7 {
+		margin-top: -52%;
+		margin-left: 1%;
+		width: 50%;
+	}
+	.imagestext3 {
+		margin-top: 30%;
+	}
+	.profilphototext8 {
+		margin-top: 20%;
+		margin-left: 1%;
+		width: 50%;
+	}
+	.imagestext6 {
+		margin-top: 25%;
+	}
+	.profilphototext9 {
+		margin-top: -40%;
+		margin-right: 2%;
+		width: 50%;
+	}
+	.imagestext7 {
+		margin-top: 30%;
+	}
+	.profilphototext10 {
+		margin-top: -52%;
+		margin-right: 2%;
+		width: 50%;
+	}
+	.text1 {
+		margin-top: 20%;
+	}
+
+	.profilphototext2 {
+		width: 50%;
+	}
+	.profilphototext1 .profilphotos1 {
+		margin-top: 20%;
+		width: 40%;
+	}
+	.profilphototext1 .profilphototext2 {
+		margin-top: -70%;
+	}
+
+	.profilphotos3 {
+		margin-top: 5%;
+		width: 38%;
+	}
+	.profilphototext4 {
+		margin-top: -68%;
+		width: 50%;
+	}
+	.profilphotos2 {
+		margin-top: 10%;
+	}
+	.profilphototext3 {
+		margin-top: -50%;
+		width: 50%;
+	}
 }
 
-
-.footer {
-	background-color: grey;
-	height: 150px;
-	position: relative;
-	color: white;
-}
-
-.footer .footer-spodok {
-	text-align: center;
-	position: absolute;
-	background-color: rgb(113, 113, 113);
-	width: 100%;
-	bottom: 0px;
-	left: 0px;
-	padding-top: 10px;
-}
-
-.footer .footer-obsah {
-	height: 116px;
-}
-.footer-obsah::after {
-	content: "";
-	clear: both;
-	display: table;
-}
-.kontakt_nazov {
-	float: left;
-	width: 33.33%;
-	text-align: center;
-	font-size: 150%;
-}
-.kontakt_email {
-	float: left;
-	width: 33.33%;
-	margin-top: 2.5%;
-	text-align: center;
-}
-.kontakt_text {
-	float: left;
-	width: 33.33%;
-	margin-top: 2.5%;
-	text-align: center;	
-}
-.email_input {
-	background-color: white;
-}
-.text_input {
-	background-color: white;
-}
-.submit_input {
-	background:transparent;
-	border: solid;
-	border-color: black;
-	margin-top: 2%;
-}
