@@ -676,3 +676,59 @@ padding: 1%;
 
 
 }
+
+.footer {
+	background-color: grey;
+	height: 150px;
+	position: relative;
+	color: white;
+}
+
+.footer .footer-spodok {
+	text-align: center;
+	position: absolute;
+	background-color: rgb(113, 113, 113);
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	padding-top: 10px;
+}
+
+.footer .footer-obsah {
+	height: 116px;
+}
+.footer-obsah::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.kontakt_nazov {
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	font-size: 150%;
+}
+.kontakt_email {
+	float: left;
+	width: 33.33%;
+	margin-top: 2.5%;
+	text-align: center;
+}
+.kontakt_text {
+	float: left;
+	width: 33.33%;
+	margin-top: 2.5%;
+	text-align: center;	
+}
+.email_input {
+	background-color: white;
+}
+.text_input {
+	background-color: white;
+}
+.submit_input {
+	background:transparent;
+	border: solid;
+	border-color: black;
+	margin-top: 2%;
+}
