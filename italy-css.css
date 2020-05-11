@@ -272,7 +272,7 @@ h3{
   	width: 50%;
   	text-align: center;
   	width: 650px;
-  	height: 600px;
+  	height: 720px;
   	margin-left: 4%;
   	border:10px solid #e2beae;
 }
@@ -282,7 +282,69 @@ h3{
   	font-size: 30px;
   	line-height: 2;
   	border:10px solid #e2beae;
+
+  		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		letter-spacing: 1.4px;
+		word-spacing: 1.6px;
+		color: #FFFFFF;
+		font-weight: 700;
+		text-decoration: none solid rgb(68, 68, 68);
+		font-style: italic;
+		font-variant: normal;
+		text-transform: none;
 }
+
+
+.line2 {
+	width: 100%;
+	height: 30px;
+	margin-top: 7%;
+	background-color: #e2beae;
+}
+
+div.polaroid {
+	float: left;
+	width: 36%;
+	text-align: center;
+ 	background-color: white;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 	margin-bottom: 25px;
+ 	margin-top: 3%;
+ 	margin-left: 10%;
+}
+div.container {
+  text-align: center;
+  margin-left: -3%;
+  font-size: 25px;
+  padding: 10px 20px;
+  color: black;
+}
+
+
+div.polaroid2 {
+	float: right;
+	width: 36%;
+	text-align: center;
+ 	background-color: white;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 	margin-bottom: 25px;
+ 	margin-top: 3%;
+ 	margin-right: 10%;
+}
+div.container2 {
+  text-align: center;
+  margin-left: -3%;
+  font-size: 25px;
+  padding: 10px 20px;
+  color: black;
+}
+
+.sekcia_polaroid::after {
+  content: "";
+  clear: both;
+  display: table;	
+}
+
 
 
 
