@@ -177,3 +177,111 @@ a {
 	padding-top: 3%;
 	background-color: #e2beae;
 }
+
+h1{
+	font-size: 120px;
+	font-family: palatino;
+	text-align: center;
+	text-shadow: 5px 5px 5px #228B22;
+
+}
+h3{
+	font-size: 60px;
+	font-family: palatino;
+	text-align: center;
+}
+
+
+
+.image_left_uvod {
+  float: left;
+  width: 33.33%;
+  padding-top: 0%;
+  height: 600px;
+  border-radius: 30%;
+  text-align: center;
+  margin-left: 2.5%;
+}
+.text_middle_uvod {
+  float: left;
+  width: 33.33%;
+  line-height: 7;
+  padding-top: 0%;
+  margin-left: -2.5%;
+  margin-right: -2.5%;
+  margin-top: 5%;
+		font-family: Georgia, serif;
+		font-size: 30px;
+		letter-spacing: 1.4px;
+		word-spacing: 1.6px;
+		color: #FFFFFF;
+		font-weight: 700;
+		text-decoration: none solid rgb(68, 68, 68);
+		font-style: italic;
+		font-variant: normal;
+		text-transform: capitalize;
+	text-align: center;
+}
+.image_right_uvod {
+  float: left;
+  width: 33.33%;
+  padding-top: 0%;
+  height: 600px;
+  border-radius: 30%;
+  text-align: center;
+  margin-right: -2.5%;
+}
+
+.image_right_uvod:hover {
+	transform: scale(1.1);
+}
+.image_left_uvod:hover {
+	transform: scale(1.1);
+}
+
+
+.sekcia_pod_nadpisom::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.uvod_text {
+	 
+	font-size: 30px;
+	padding: 15px;
+	margin-top: 8%;
+	margin-bottom: 50px;
+	text-align: center;
+	border:30px solid #e2beae;
+	font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.koniec {
+	position: absolute;
+	top: 4000px;
+}
