@@ -261,6 +261,34 @@ h3{
 
 
 
+.zakladne_info::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.zakladne_info_left {
+	float: left;
+  	width: 50%;
+  	text-align: center;
+  	width: 650px;
+  	height: 600px;
+  	margin-left: 4%;
+  	border:10px solid #e2beae;
+}
+.zakladne_info_right {
+	float: left;
+  	width: 50%;
+  	font-size: 30px;
+  	line-height: 2;
+  	border:10px solid #e2beae;
+}
+
+
+
+
+
+
 
 
 
