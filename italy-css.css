@@ -446,7 +446,7 @@ div.container2 {
 
 /*VERZIA NA MOBIL*/
 
-@media screen and (max-width:1430px){
+@media screen and (max-width:1080px){
 
 	#logo-holder {
 		left: -38%;
