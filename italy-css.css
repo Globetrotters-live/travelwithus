@@ -549,7 +549,72 @@ div.container2 {
 	}
 
 
+	.text_middle_uvod {
+		font-size: 25px;
+		margin-left: -1.5%;
+		margin-right: -1.5%;
+	}
+
+	.image_left_uvod {
+		margin-left: 1.5%;
+	}
+	.image_right_uvod {
+		margin-right: -1.5%;
+	}
+
+	.zakladne_info_left {
+		width: 98%;
+		margin-left: 0%;
+		
+	}
+
+	.zakladne_info_right {
+		width: 98%;
+		line-height: 1.5;
+		margin-right: -2%;
+	}
 
 
+	.sekcia_hore {
+		text-align: center;
+		width: 100%;
+	}
 
+	.sekcia_hore img {
+		width: 50%;
+		height: 100%;
+		border-radius: 20%;
+		border: solid white 5px;
+	}
+
+	.sekcia_stred_middle {
+		width: 100%;
+	}
+
+	.blind {
+		opacity: 0;
+	}
+
+	.sekcia_stred_left {
+		opacity: 0;
+		width: 0%;
+		height: 0px;
+	}
+
+	.sekcia_stred_right {
+		position: absolute;
+		top: 390%;
+		width: 100%;	
+	}
+	.sekcia_stred_right img {
+		margin-top: -24%;
+		height: 900px;
+		border-radius: 30%;
+		border: solid white 5px;
+		padding: 20px;
+	}
+
+	.sekcia_koniec {
+		margin-bottom: 0px;
+	}
 }
