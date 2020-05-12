@@ -603,8 +603,10 @@ div.container2 {
 
 	.sekcia_stred_right {
 		position: absolute;
-		top: 390%;
-		width: 100%;	
+		float: none;
+		width: 100%;
+		margin-top: 106%;
+
 	}
 	.sekcia_stred_right img {
 		margin-top: -24%;
