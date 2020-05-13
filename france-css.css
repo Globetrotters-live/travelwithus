@@ -176,4 +176,155 @@ a {
 	margin-top: 3%;
 	padding-top: 3%;
 	background-color: #e2beae;
+	color: 
 }
+h1{
+	font-size: 220px;
+	font-family:Corsiva;
+	text-align: center;
+	text-shadow: 10px 10px 10px #141FB8;
+	color: white;
+	margin-top: 20px; }
+
+	
+	.preklad{
+		font-family: "Century Gothic";
+		text-align: center;
+		font-size: 60px;
+		margin-top: -7%;
+		color: white;
+
+	}
+
+.video{
+	
+	text-align: center;
+	position: relative;
+	width: 100%;
+	margin-right: 30%;
+	margin-top: -20px;
+}
+h3{
+	font-family: "Roge Italic", cursive, sans-serif;
+	font-size: 500%;
+	text-align: center;
+	color: white;
+}
+
+.mesto{
+	margin-top: -8%;
+	color: black;
+	text-shadow: 10px 10px 10px #C21015;
+	color:white;
+
+}
+.kaviaren{
+	display: block; /* obrázok do stredu */
+	margin: 0px auto; 
+	position: relative;
+
+	}
+	li{
+		margin-left: 30px;
+		font-size: 40px;
+		font-family: victoria,cursive, sans-serif;
+		
+		word-spacing: 6px;
+		letter-spacing: 6px;
+		color: white;
+	}
+	.dôvody{
+		margin-left: 30px;
+		font-size: 60px;
+		font-family: victoria, cursive;
+		color:white;
+		text-align: center;
+	}
+	main{
+		background-color: black;
+	}
+	h4{
+		width: 30%;
+	}
+	.preco{
+		float: right;
+		margin-right: 10%;
+	}
+	
+	.naco{
+		text-align: center;
+		font-size: 60px;
+		font-family: victoria, cursive;
+		color:white;
+
+	}
+	.rady{
+		
+		font-size: 20px;
+		font-family: victoria;
+		
+		word-spacing: 6px;
+		letter-spacing: 6px;
+		color: white;
+
+	}
+.profilphotos{
+	padding: 4%;
+	
+	background-color: black;
+}
+.profilphotos1{
+	border-style: groove;
+	border-radius: 50px;
+	border-width: 3px;
+	border-color: white;
+	padding: 10px;
+	transition: 5s;}
+.profilphotos:after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.profilphototext2{
+	float: right;
+	text-align: center;
+	width: 68%;
+	margin-top:-29%;
+	padding-left: 50%;
+	text-indent: 50px;
+	font-size: 150%;
+	font-style: italic;
+	text-align: justify;
+ 	padding: 1%;
+ 	border:5px solid pink;
+	border-radius: 20px;}
+
+.profilphotos2:after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.profilphotos2{
+	border-style: groove;
+	border-radius: 50px;
+	border-width: 3px;
+	border-color: white;
+	padding: 10px;
+}
+
+.profilphototext3{
+
+padding: 1%;
+	float: right;
+	text-align: center;
+	width: 52%;
+	margin-top:-28%;
+	
+	text-indent: 50px;
+	font-size: 130%;
+	font-style: italic;
+	text-align: justify;
+	border:5px solid pink;
+	border-radius: 20px;
+
+	} 

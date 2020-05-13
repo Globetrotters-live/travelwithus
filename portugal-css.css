@@ -207,6 +207,12 @@ h3{
 
 
 }
+h6{font-size: 30px;
+	font-family: palatino;
+	text-align: center;
+	color: white;
+
+}
 
 .one{
 	background: pink;
@@ -240,10 +246,11 @@ nav {
 nav ul {
 	width: 100%;
 	margin: 0px auto;
+	margin-top: 10px;
 
 }
 nav ul li {
-	width: 190px;
+	width: 320px;
 	list-style-type: none;
 	float:left;
 	text-align: center; /* na stred */
@@ -251,7 +258,7 @@ nav ul li {
 	font-size: 20px;
 	vertical-align: middle;
 	margin-left: 3%;
-	margin-top: 20px;
+	margin-top: 15px;
 	margin-bottom: 20px; /* zarovnanie na stred */
 }
 nav ul li a {
@@ -279,7 +286,10 @@ nav ul li a:hover {
 	text-align: center;
 	padding: 5%;
 	margin-left:10%;
-
+	font-size: 32px;
+	font-family: palatino;
+	text-align: center;
+	color: #FFB0A2
 }
 .uvodnefoto{
 	content: "";
@@ -334,4 +344,63 @@ margin-left: 15%;
 	transform:scale(1.1);
 	transition: 0.5s;
 }
+.profilphotos{
+	padding: 4%;
+	
+	background-color: black;
+}
+.profilphotos1{
+	border-style: groove;
+	border-radius: 50px;
+	border-width: 3px;
+	border-color: white;
+	padding: 10px;
+	transition: 5s;}
+.profilphotos:after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.profilphototext2{
+	float: right;
+	text-align: center;
+	width: 68%;
+	margin-top:-29%;
+	padding-left: 50%;
+	text-indent: 50px;
+	font-size: 150%;
+	font-style: italic;
+	text-align: justify;
+ 	padding: 1%;
+ 	border:5px solid pink;
+	border-radius: 20px;}
 
+.profilphotos2:after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.profilphotos2{
+	border-style: groove;
+	border-radius: 50px;
+	border-width: 3px;
+	border-color: white;
+	padding: 10px;
+}
+
+.profilphototext3{
+
+padding: 1%;
+	float: right;
+	text-align: center;
+	width: 52%;
+	margin-top:-28%;
+	
+	text-indent: 50px;
+	font-size: 130%;
+	font-style: italic;
+	text-align: justify;
+	border:5px solid pink;
+	border-radius: 20px;
+
+	} 
