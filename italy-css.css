@@ -593,6 +593,8 @@ div.container2 {
 
 	.blind {
 		opacity: 0;
+		width: 0%;
+		height: 0px;
 	}
 
 	.sekcia_stred_left {
@@ -602,15 +604,14 @@ div.container2 {
 	}
 
 	.sekcia_stred_right {
-		position: absolute;
+		position: relative;
 		float: none;
 		width: 100%;
-		margin-top: 106%;
 
 	}
 	.sekcia_stred_right img {
-		margin-top: -24%;
 		height: 900px;
+		margin-top: 10%;
 		border-radius: 30%;
 		border: solid white 5px;
 		padding: 20px;
