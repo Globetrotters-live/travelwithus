@@ -4,7 +4,7 @@
 	<title>TravelWithUs</title>
 	<link rel="stylesheet" type="text/css" href="italy-css.css">
 </head>
-<body>
+<body onload="zacni()">
 
 
 			<div class="hlavicka">
@@ -126,12 +126,35 @@
 	</div>
 
 
+	<script>
+		
+		let position = 1;
 
+function zmena_sekcia_hore() {
+if (position==0) {
+	document.getElementById('sekcia_hore_id').src = "san_marino4.jpg";
+	position=1;
+	}    
+else if (position==1) {
+	document.getElementById('sekcia_hore_id').src = "sekcia_hore2.jpg";
+	position=2;
+	}    
+else if (position==2) {
+	document.getElementById('sekcia_hore_id').src = "sekcia_hore3.jpg";
+	position=0;
+	}  
+}
+
+function zacni() {
+	setInterval('zmena_sekcia_hore();', 2000);
+}
+
+	</script>
 
 
 	<div class="sekcia_hore">
 		
-		<img src="san_marino4.jpg">
+		<img id="sekcia_hore_id" src="san_marino4.jpg">
 
 	</div>
 

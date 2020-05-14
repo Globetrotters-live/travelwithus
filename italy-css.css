@@ -346,6 +346,7 @@ div.container2 {
 }
 
 
+
 .sekcia_hore {
 	width: 100%;
 	text-align: center;
@@ -353,6 +354,7 @@ div.container2 {
 .sekcia_hore img {
 	width: 30%;
 	height: 400px;
+	border-radius: 30%;
 }
 
 
