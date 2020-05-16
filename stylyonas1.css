@@ -583,7 +583,7 @@ padding: 1%;
 		
 		#logo-holder {
 			padding-top: 2.6%;
-			left: -36%;
+			right: 35%;
 		}
 		#logo-holder .text {
 			margin-right: 5%;
@@ -596,7 +596,7 @@ padding: 1%;
 
 		/*_____*/
 		#logo-holder2 {
-			left: -7%;
+			right: 7%;
 		}
 		#logo-holder2 .text2 {
 			margin-right: 5%;
