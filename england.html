@@ -4,7 +4,7 @@
 	<title>TravelWithUs</title>
 	<link rel="stylesheet" type="text/css" href="england-css.css">
 </head>
-<body>
+<body onload="zacni(); zacni2()">
 
 
 
@@ -51,7 +51,184 @@
 	<p class="line1"></p>
 
 
+	<div class="nadpis1">
+		<p><em><strong>Anglicko</strong></em></p>
+	</div>
 
+
+	<div class="nadpis2">
+		<p><em><strong>#Londýn</strong></em></p>
+	</div>
+
+
+	<div class="obrazky_pod_nadpisom">
+		<div class="obrazky_pod_nadpisom_left">
+			<img id="img_left" src="london1.jpg">
+		</div>
+		<div class="obrazky_pod_nadpisom_right">
+			<img id="img_right" src="london4.jpg">
+		</div>
+	</div>
+
+
+		<script>
+		
+		let position = 1;
+
+	function zmena_img1() {
+if (position==0) {
+		document.getElementById('img_left').src = "london1.jpg";
+	position=1;
+	}    
+else if (position==1) {
+		document.getElementById('img_left').src = "london2.jpg";
+	position=2;
+	}    
+else if (position==2) {
+		document.getElementById('img_left').src = "london3.jpg";
+	position=0;
+	}  
+}
+
+	function zmena_img2() {
+if (position==0) {
+		document.getElementById('img_right').src = "london4.jpg";
+	position=1;
+	}    
+else if (position==1) {
+		document.getElementById('img_right').src = "london5.jpg";
+	position=2;
+	}    
+else if (position==2) {
+		document.getElementById('img_right').src = "london6.jpg";
+	position=0;
+	}  
+}
+
+function zacni() {
+	setInterval('zmena_img1();', 3500);
+}
+function zacni2() {
+	setInterval('zmena_img2();', 3500);
+}
+
+	</script>
+
+
+	<div class="zakl_info_nadpis">
+		<p>Základné informácie</p>
+	</div>
+
+
+	<div class="zakl_info">
+		<ul>
+			<ol>•	Tretie najväčšie mesto v Európe	•</ol>
+			<ol>•	Prvý podzemný železničný systém na svete	•</ol>
+			<ol>•	Sídlo parlamentu: Westminsterský palác	•</ol>
+			<ol>•	Rieka: Temža	•</ol>
+			<ol>•	Rozloha: 1572 km	•</ol>
+			<ol>•	Počet obyvateľov: 8,9 miliónov	•</ol>
+			<ol>•	Vznik: založený Rimanmi okolo roku 50	•</ol>
+		</ul>
+	</div>
+
+
+	<div class="zauj_info_nadpis">
+		<p>Zaujímavé miesta</p>
+	</div>
+
+
+	<div class="zauj_info1">
+		<div class="zauj_info1_left">
+			<img src="london7.jpg">
+		</div>
+		<div class="zauj_info1_right">
+			<ul>
+				<ol>►	London eye	◄</ol>
+				<li>Vstup stojí približne 30£</li>
+				<li>Myslím si, že sa oplatí previesť sa a zažiť výhľady na Londýn na vlastnej koži aspoň raz za život</li>
+			</ul>		
+		</div>
+	</div>
+
+
+	<div class="zauj_info2">
+		<div class="zauj_info2_left">
+			<ul>
+				<ol>►	Westminsterský palác	◄</ol>
+				<li>Sídlo britského parlamentu, ktoré sa nachádza hneď vedľa Big Benu</li>
+				<li>Väčšia časť z toho čo dnes môžeme vidieť bola zrekonštruovaná po požiari v roku 1834</li>
+			</ul>
+		</div>
+
+		<div class="zauj_info2_right">
+			<img src="london8.jpg">
+		</div>
+	</div>
+
+
+
+	<div class="zauj_info3">
+		<div class="zauj_info3_left1">
+			<img src="london9.jpg">
+		</div>
+		<div class="zauj_info3_left2">
+			<img src="london10.jpg">
+		</div>
+
+		<div class="zauj_info3_right">
+			<ul>
+				<ol>►	Tower Bridge	◄</ol>
+				<li><em>"Najkrajší most, aký som kedy videla."</em></li>
+				<li><em>"Nepochopíte moje nadšenie z jeho jedinečnej modrej farby, pokým ho neuvidíte na vlastné oči."</em></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="zauj_info4">
+		<div class="zauj_info4_left">
+			<ul>
+				<ol>►	Big Ben	◄</ol>
+				<li>Vedeli ste, že Big Ben je len názov zvonu?</li>
+				<li>V skutočnosti sa táto veža nazýva Elizabeth Tower</li>
+			</ul>
+		</div>
+
+		<div class="zauj_info4_middle">
+			<img src="london11.jpg">
+		</div>
+
+		<div class="zauj_info4_right">
+			<ul>
+				<li>Momentálne je však stále v rekonštrukcii až do roku 2021</li>
+				<li>Veža sa týči nad severovýchodnou časťou parlamentu</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="zauj_info5">
+		<div class="zauj_info5_left">
+			<img src="london12.jpg">
+			<p>Westminster Abbey</p>
+		</div>
+
+		<div class="zauj_info5_middle">
+			<img src="london13.jpg">
+			<p>Tower of London</p>
+		</div>
+
+		<div class="zauj_info5_right">
+			<img src="london14.jpg">
+			<p>Buckingham Palace</p>
+		</div>
+	</div>
+
+
+	<div class="koniec_text">
+		<p>Netuším, ako inak by som v skratke popísala toto mesto. Mám totižto pocit, že aj keby ho navštívim stokrát, tak vždy ma niečím dokáže prekvapiť, zažijem v ňom niečo nové a nájdem nové zaujímavé miesta. Okrem toho je dobré vedieť, že Londýn vyslovene dýcha multikultúrou. Dokazuje to aj fakt, že sa v ňom rozpráva vyše 300 jazykmi.</p>
+	</div>
 
 </body>
 </html>
