@@ -427,3 +427,185 @@ padding: 1%;
 	border-radius: 20px;
 
 	} 
+
+
+
+
+	@media screen and (max-width:1080px)
+		{
+			#logo-holder {
+		left: -38%;
+		margin-top: 6%;
+	}
+
+	/*	#logo-holder .text {
+		margin-left: 20%;
+		margin-top: 44%;
+	}*/
+
+	#logo-holder .image {
+		margin-top: -7%;
+		
+	}
+
+	#logo-holder2 {
+		top: 50px;
+		left: -10%;
+		height: 110px;
+	}
+
+	#logo-holder2 .text2 {
+		margin-top: -20%;
+		margin-left: 1%;
+		opacity: 1;
+	}
+
+	#logo-holder2 .image2 {
+		height: 100%;
+		width: 105%;
+		margin-top: 0%;
+	}
+
+	#logo-holder3 {
+		left: 20%;
+		top: 50px;
+		width: 130px;
+		height: 110px;
+	}
+
+	#logo-holder3 .text3 {
+
+		margin-top: 0%;
+		margin-left: 0%;
+	}
+
+	#logo-holder3 .image3 {
+		margin-top: 0%;
+		width: 100%;
+		height: 100%;
+	}
+
+	#logo-holder4 {
+		height: 110px;
+		width: 130px;
+		top: 200px;
+		left: 8%;
+	}
+
+	#logo-holder4 .text4 {
+		margin-top: 30%;
+		margin-left: 10%;
+		padding-top: 0%;
+	}
+
+	#logo-holder4 .image4 {
+		margin-top: 0%;
+		width: 100%;
+		height: 100%;
+	}
+
+	#logo-holder5 {
+		left: -10%;
+		height: 110px;
+		width: 130px;
+		top: -245px;
+	}
+
+	#logo-holder5 .text5 {
+		margin-top: 30%;
+		padding-top: 0%;
+	}
+
+	#logo-holder5 .image5 {
+		height: 100%;
+		width: 100%;
+		margin-top: 0%;
+	}
+
+	#logo-holder6 .text6 {
+		margin-left: -320%;
+		margin-top: -540%;
+	}
+
+	#logo-holder7 .text7 {
+		position: relative;
+		margin-left: -74%;
+		margin-top: -205%;
+	}
+		.one{
+
+	background: pink;
+}
+.one{
+	margin-left: 55px;
+	border-radius: 60px;
+	border:5px solid white;
+	
+}
+
+		
+nav ul li{
+		margin-left: -8%;	
+		}
+		.two{
+			width: 78%;
+		
+			
+	}
+.profilphotos{
+	padding: 4%;
+		
+background-color: black;
+}
+
+
+.profilphotos1{
+	border-style: groove;
+	border-radius: 50px;
+	border-width: 3px;
+	border-color: white;
+	padding: 10px;
+	transition: 5s;}
+.profilphotos:after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.profilphototext2{
+	float: right;
+	text-align: center;
+	width: 65%;
+	margin-top:-45%;
+	padding-left: 50%;
+	text-indent: 50px;
+	font-size: 150%;
+	font-style: italic;
+	text-align: justify;
+ 	padding: 1%;
+ 	border:5px solid pink;
+	border-radius: 20px;}
+
+.profilphotos2:after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.profilphotos2{
+	border-style: groove;
+	border-radius: 50px;
+	border-width: 3px;
+	border-color: white;
+	padding: 10px;
+}
+
+.profilphototext3{
+	margin-top: -45%;
+}
+
+
+.uvodnefoto1 {
+	margin-top: -5%;
+}
+
+
+}
