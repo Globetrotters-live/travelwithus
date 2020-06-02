@@ -545,7 +545,8 @@ padding: 1%;
 
 		
 nav ul li{
-		margin-left: -8%;	
+		margin-left: -8%;
+		font-size: 18px;	
 		}
 		.two{
 			width: 78%;
@@ -599,7 +600,7 @@ background-color: black;
 }
 
 .profilphototext3{
-	margin-top: -45%;
+	margin-top:-40%;
 }
 
 
