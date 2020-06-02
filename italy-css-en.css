@@ -19,31 +19,36 @@ a {
 .hlavicka {
 	position: relative;
 	background-color: black;
+	height: 100%;
 }
 #logo {
 	position: relative;
-		margin-top: 1%;
-		margin-left: 2%;
-		border-radius: 3%;
-		height: 425px;
+		margin-top: 2%;
+		margin-left: 5%;
+		border-radius: 5%;
 }
+
+
+
+
 /*prvý obrázok*/
 #logo-holder {
 	position: relative;
  	float: right;
  	margin-top: 4.7%;
- 	right: 40%;
+ 	right: 38%;
 
  }
 #logo-holder .text {
 	font-size: 180%;
+	margin-left: 65%;
 }
 
 #logo-holder .image {transition: opacity 0.5s ease-in-out;}
 #logo-holder .image {
 	position:absolute;
-	margin-top: -23%;
-	width: 110%;
+	margin-top: -25%;
+	width: 230%;
 	height: 120%;	
 	opacity:1;
 
@@ -60,14 +65,15 @@ a {
 #logo-holder2 .text2 {
 	font-size: 180%;
 	padding-top: 66%;
+	margin-left: 10%;
 }
 
 #logo-holder2 .image2 {transition: opacity 0.5s ease-in-out;}
 #logo-holder2 .image2 {
 	position:absolute;
-	margin-top: 36%;
-	width: 110%;
-	height: 70%;	
+	margin-top: 50%;
+	width: 120%;
+	height: 71%;	
 	opacity:1;}
 
 #logo-holder2:hover .text {opacity:1;}
@@ -76,22 +82,22 @@ a {
 #logo-holder3 {
 	position: relative;
  	float: right;
- 	left: 10.5%;
+ 	left: 7%;
+ 	margin-top: 2.4%;
  }
 #logo-holder3 .text3 {
 	font-size: 180%;
-	padding-top: 46%;
+	padding-top: 30%;
 	opacity: 0;
 }
 #logo-holder3 .text3 {transition: opacity 0.5s ease-in-out;}
 #logo-holder3 .image3 {transition: opacity 0.5s ease-in-out;}
 #logo-holder3 .image3 {
 	position:absolute;
-	margin-top: 23%;
-	width: 90%;
-	height: 74%;	
-	opacity:1;
-}
+	width: 109%;
+	height: 94%;
+	margin-top: 13%;	
+	opacity:1;}
 
 #logo-holder3:hover .text3 {opacity:1;}
 #logo-holder3:hover .image3 {opacity:0;}
@@ -99,20 +105,21 @@ a {
 #logo-holder4 {
 	position: relative;
  	float: right;
- 	right: 8%;
+ 	right: 10%;
+ 	margin-top: -0.7%;
  }
 #logo-holder4 .text4 {
 	font-size: 180%;
-	padding-top: 220%;
+	padding-top: 210%;
+	margin-left: 8%;
 }
 
 #logo-holder4 .image4 {transition: opacity 0.5s ease-in-out;}
-#logo-holder4 .text4 {transition: opacity 0.5s ease-in-out;}
 #logo-holder4 .image4 {
 	position:absolute;
 	margin-top: 190%;
 	width: 120%;
-	height: 45%;	
+	height: 44%;	
 	opacity:1;}
 
 #logo-holder4:hover .text {opacity:1;}
@@ -121,21 +128,24 @@ a {
 #logo-holder5 {
 	position: relative;
  	float: right;
- 	left: 17.4%;
+ 	left: 11%;
+ 	padding-top: 4%;
  }
 #logo-holder5 .text5 {
 	font-size: 180%;
-	padding-top: 130%;
+	padding-top: 150%;
 	opacity: 0;
+	margin-left: 17%;
 }
 #logo-holder5 .text5 {transition: opacity 0.5s ease-in-out;}
 #logo-holder5 .image5 {transition: opacity 0.5s ease-in-out;}
 #logo-holder5 .image5 {
 	position:absolute;
-	margin-top: 115%;
-	width: 95%;
+	margin-top: 125%;
+	width: 140%;
 	height: 47%;	
-	opacity:1;}
+	opacity: 1;
+	}
 
 #logo-holder5:hover .text5 {opacity:1;}
 #logo-holder5:hover .image5 {opacity:0;}
@@ -143,24 +153,24 @@ a {
 #logo-holder6 {
 	position: relative;
  	float: right;
- 	left: 16%;
+ 	left: 17%;
+ 	opacity: 1;
  }
 #logo-holder6 .text6 {
 	position: relative;
 	font-size: 180%;
-	top: 325px;
-
-}
-#logo-holder6 a:hover {
+	top: 320px;
+	margin-left: -75%;
 	text-decoration: underline;
 }
+
 #logo-holder7 a:hover {
 	text-decoration: underline;
 }
 #logo-holder7 {
 	position: relative;
  	float: right;
- 	left: 12.5%;
+ 	left: 10.8%;
  }
 #logo-holder7 .text7 {
 	position: absolute;

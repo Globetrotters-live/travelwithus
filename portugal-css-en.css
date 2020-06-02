@@ -19,31 +19,36 @@ a {
 .hlavicka {
 	position: relative;
 	background-color: black;
+	height: 100%;
 }
 #logo {
 	position: relative;
-		margin-top: 1%;
-		margin-left: 2%;
-		border-radius: 3%;
-		height: 425px;
+		margin-top: 2%;
+		margin-left: 5%;
+		border-radius: 5%;
 }
+
+
+
+
 /*prvý obrázok*/
 #logo-holder {
 	position: relative;
  	float: right;
  	margin-top: 4.7%;
- 	right: 40%;
+ 	right: 38%;
 
  }
 #logo-holder .text {
 	font-size: 180%;
+	margin-left: 65%;
 }
 
 #logo-holder .image {transition: opacity 0.5s ease-in-out;}
 #logo-holder .image {
 	position:absolute;
-	margin-top: -23%;
-	width: 110%;
+	margin-top: -25%;
+	width: 230%;
 	height: 120%;	
 	opacity:1;
 
@@ -60,14 +65,15 @@ a {
 #logo-holder2 .text2 {
 	font-size: 180%;
 	padding-top: 66%;
+	margin-left: 10%;
 }
 
 #logo-holder2 .image2 {transition: opacity 0.5s ease-in-out;}
 #logo-holder2 .image2 {
 	position:absolute;
-	margin-top: 36%;
-	width: 110%;
-	height: 70%;	
+	margin-top: 50%;
+	width: 120%;
+	height: 71%;	
 	opacity:1;}
 
 #logo-holder2:hover .text {opacity:1;}
@@ -76,22 +82,22 @@ a {
 #logo-holder3 {
 	position: relative;
  	float: right;
- 	left: 10.5%;
+ 	left: 7%;
+ 	margin-top: 2.4%;
  }
 #logo-holder3 .text3 {
 	font-size: 180%;
-	padding-top: 46%;
+	padding-top: 30%;
 	opacity: 0;
 }
 #logo-holder3 .text3 {transition: opacity 0.5s ease-in-out;}
 #logo-holder3 .image3 {transition: opacity 0.5s ease-in-out;}
 #logo-holder3 .image3 {
 	position:absolute;
-	margin-top: 23%;
-	width: 90%;
-	height: 74%;	
-	opacity:1;
-}
+	width: 109%;
+	height: 94%;
+	margin-top: 13%;	
+	opacity:1;}
 
 #logo-holder3:hover .text3 {opacity:1;}
 #logo-holder3:hover .image3 {opacity:0;}
@@ -99,20 +105,21 @@ a {
 #logo-holder4 {
 	position: relative;
  	float: right;
- 	right: 8%;
+ 	right: 10%;
+ 	margin-top: -0.7%;
  }
 #logo-holder4 .text4 {
 	font-size: 180%;
-	padding-top: 220%;
+	padding-top: 210%;
+	margin-left: 8%;
 }
 
 #logo-holder4 .image4 {transition: opacity 0.5s ease-in-out;}
-#logo-holder4 .text4 {transition: opacity 0.5s ease-in-out;}
 #logo-holder4 .image4 {
 	position:absolute;
 	margin-top: 190%;
 	width: 120%;
-	height: 45%;	
+	height: 44%;	
 	opacity:1;}
 
 #logo-holder4:hover .text {opacity:1;}
@@ -121,21 +128,24 @@ a {
 #logo-holder5 {
 	position: relative;
  	float: right;
- 	left: 17.4%;
+ 	left: 11%;
+ 	padding-top: 4%;
  }
 #logo-holder5 .text5 {
 	font-size: 180%;
-	padding-top: 130%;
+	padding-top: 150%;
 	opacity: 0;
+	margin-left: 17%;
 }
 #logo-holder5 .text5 {transition: opacity 0.5s ease-in-out;}
 #logo-holder5 .image5 {transition: opacity 0.5s ease-in-out;}
 #logo-holder5 .image5 {
 	position:absolute;
-	margin-top: 115%;
-	width: 95%;
+	margin-top: 125%;
+	width: 140%;
 	height: 47%;	
-	opacity:1;}
+	opacity: 1;
+	}
 
 #logo-holder5:hover .text5 {opacity:1;}
 #logo-holder5:hover .image5 {opacity:0;}
@@ -143,24 +153,24 @@ a {
 #logo-holder6 {
 	position: relative;
  	float: right;
- 	left: 16%;
+ 	left: 17%;
+ 	opacity: 1;
  }
 #logo-holder6 .text6 {
 	position: relative;
 	font-size: 180%;
-	top: 325px;
-
-}
-#logo-holder6 a:hover {
+	top: 320px;
+	margin-left: -75%;
 	text-decoration: underline;
 }
+
 #logo-holder7 a:hover {
 	text-decoration: underline;
 }
 #logo-holder7 {
 	position: relative;
  	float: right;
- 	left: 12.5%;
+ 	left: 10.8%;
  }
 #logo-holder7 .text7 {
 	position: absolute;
@@ -196,103 +206,178 @@ a {
 
 
 
-
 .line1 {
 	margin-top: 3%;
 	padding-top: 3%;
 	background-color: #e2beae;
-	color: 
+}
+.koniec {
+	position: relative;
+	top: 5000px;
 }
 h1{
-	font-size: 220px;
-	font-family:Corsiva;
+	font-size: 120px;
+	font-family: palatino;
 	text-align: center;
-	text-shadow: 10px 10px 10px #141FB8;
-	color: white;
-	margin-top: 20px; }
+	text-shadow: 5px 5px 5px #5CD0F3;
 
-	
-	.preklad{
-		font-family: "Century Gothic";
-		text-align: center;
-		font-size: 60px;
-		margin-top: -7%;
-		color: white;
-
-	}
-
-.video{
-	
+}
+h2{
+	font-size: 110;
+	font-family: palatino;
 	text-align: center;
-	position: relative;
-	width: 100%;
-	margin-right: 30%;
 	margin-top: -20px;
+	font-style: oblique;
+	letter-spacing: 1.8px;
+	word-spacing: 0.2px;
+	
+	
 }
 h3{
-	font-family: "Roge Italic", cursive, sans-serif;
-	font-size: 500%;
+	font-size: 60px;
+	font-family: palatino;
+	text-align: center;
+
+
+
+}
+h6{font-size: 30px;
+	font-family: palatino;
 	text-align: center;
 	color: white;
-}
-
-.mesto{
-	margin-top: -8%;
-	color: black;
-	text-shadow: 10px 10px 10px #C21015;
-	color:white;
 
 }
-.kaviaren{
-	display: block; /* obrázok do stredu */
-	margin: 0px auto; 
-	position: relative;
 
-	}
-	li{
-		margin-left: 30px;
-		font-size: 40px;
-		font-family: victoria,cursive, sans-serif;
-		
-		word-spacing: 6px;
-		letter-spacing: 6px;
-		color: white;
-	}
-	.dôvody{
-		margin-left: 30px;
-		font-size: 60px;
-		font-family: victoria, cursive;
-		color:white;
-		text-align: center;
-	}
-	main{
-		background-color: black;
-	}
-	h4{
-		width: 30%;
-	}
-	.preco{
-		float: right;
-		margin-right: 10%;
-	}
+.one{
+	background: pink;
+}
+.one{
+	margin-left: 80px;
+	border-radius: 70px;
+	border:5px solid white;
+
 	
-	.naco{
-		text-align: center;
-		font-size: 60px;
-		font-family: victoria, cursive;
-		color:white;
 
-	}
-	.rady{
-		
-		font-size: 20px;
-		font-family: victoria;
-		
-		word-spacing: 6px;
-		letter-spacing: 6px;
-		color: white;
+}
+.one:hover {
+	transform:scale(1.1);
+	transition: 0.5s;
+}
+#logo:hover{
+	transform: scale(1.02);
+	transition: 0.5s;
+}
+/*
+body{
+background: #8C8C8C;
+background: -moz-linear-gradient(top, #8C8C8C 0%, #000000 43%, #EBFFEE 100%);
+background: -webkit-linear-gradient(top, #8C8C8C 0%, #000000 43%, #EBFFEE 100%);
+background: linear-gradient(to bottom, #8C8C8C 0%, #000000 43%, #EBFFEE 100%);*/
 
-	}
+nav {
+	background: white; /*vyfarbenie políčok NAV */
+}
+nav ul {
+	width: 100%;
+	margin: 0px auto;
+	margin-top: 10px;
+
+}
+nav ul li {
+	width: 320px;
+	list-style-type: none;
+	float:left;
+	text-align: center; /* na stred */
+	line-height: 50px; /*väčšie polička*/
+	font-size: 20px;
+	vertical-align: middle;
+	margin-left: 3%;
+	margin-top: 15px;
+	margin-bottom: 20px; /* zarovnanie na stred */
+}
+nav ul li a {
+	color: black;
+	text-decoration: none;
+	margin-top: 20px;
+
+}
+nav ul li a:hover {
+	border-bottom: 2px solid #e2beae; 
+	/* podčiarknutie na dol */
+
+
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear:both;
+}
+.Rady{
+	border:2px solid white;
+	border-radius: 30px;
+	width: 70%;
+	text-align: center;
+	padding: 5%;
+	margin-left:10%;
+	font-size: 32px;
+	font-family: palatino;
+	text-align: center;
+	color: #FFB0A2
+}
+.uvodnefoto{
+	content: "";
+	clear: both;
+	display: table;
+}
+.uvodnefoto1{
+float:left;
+	width: 82%;
+	padding: 1%;
+	margin-top: -10%;
+margin-left: 15%;
+	
+}
+.uvodnefoto{
+	content: "";
+	clear: both;
+	display: table;
+}
+.uvodnefoto2{
+	float:right;
+	width: 80%;
+	padding: 1%;
+	margin-right:-49%;
+	margin-top: -13%
+
+
+}
+.two{
+
+	background: pink;
+}
+.two{
+	margin-left:110px;
+	border-radius: 70px;
+	border:5px solid white;
+	margin-top: 3%;
+
+
+	
+
+}
+.two:hover {
+	transform:scale(1.1);
+	transition: 0.5s;
+}
+.okrajovefoto{
+	border-radius: 30px;
+}
+.okrajovefoto:hover{
+
+	transform:scale(1.1);
+	transition: 0.5s;
+}
 .profilphotos{
 	padding: 4%;
 	

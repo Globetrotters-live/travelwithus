@@ -167,7 +167,30 @@ a {
 	font-size: 180%;
 	top: 380px;
 	width: 200px;
+}
 
+.jazyk {
+	position: absolute;
+	right: 0px;
+	top: -5%;
+	word-spacing: 0.3em;
+	font-size: 1.6em;
+}
+
+.jazyk ul {
+	display: inline-block;
+}
+
+.jazyk ul a:hover {
+	border-bottom: none;
+}
+.jazyk ol {
+	display: inline;
+	margin-right: 0.5em;
+}
+
+.jazyk a {
+	color: white;
 }
 
 
