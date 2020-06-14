@@ -1,0 +1,815 @@
+body, html {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body , html {
+	overflow-x: hidden;
+}
+body {
+	background:#ddd;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	color: #262626;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+.hlavicka {
+	position: relative;
+	background-color:#ddd;
+}
+#logo {
+	position: relative;
+		margin-top: 1%;
+		margin-left: 2%;
+		border-radius: 3%;
+		height: 425px;
+}
+/*prvý obrázok*/
+#logo-holder {
+	position: relative;
+ 	float: right;
+ 	margin-top: 4.7%;
+ 	right: 40%;
+
+ }
+#logo-holder .text {
+	font-size: 180%;
+}
+
+#logo-holder .image {transition: opacity 0.5s ease-in-out;}
+#logo-holder .image {
+	position:absolute;
+	margin-top: -23%;
+	width: 110%;
+	height: 120%;	
+	opacity:1;
+
+}
+
+#logo-holder:hover .text {opacity:1;}
+#logo-holder:hover .image {opacity:0;}
+/*druhý obrázok*/
+#logo-holder2 {
+	position: relative;
+ 	float: right;
+ 	right: 16%;
+ }
+#logo-holder2 .text2 {
+	font-size: 180%;
+	padding-top: 66%;
+}
+
+#logo-holder2 .image2 {transition: opacity 0.5s ease-in-out;}
+#logo-holder2 .image2 {
+	position:absolute;
+	margin-top: 36%;
+	width: 110%;
+	height: 70%;	
+	opacity:1;}
+
+#logo-holder2:hover .text {opacity:1;}
+#logo-holder2:hover .image2 {opacity:0;}
+/*tretí obrázok*/
+#logo-holder3 {
+	position: relative;
+ 	float: right;
+ 	left: 10.5%;
+ }
+#logo-holder3 .text3 {
+	font-size: 180%;
+	padding-top: 46%;
+	opacity: 0;
+}
+#logo-holder3 .text3 {transition: opacity 0.5s ease-in-out;}
+#logo-holder3 .image3 {transition: opacity 0.5s ease-in-out;}
+#logo-holder3 .image3 {
+	position:absolute;
+	margin-top: 23%;
+	width: 90%;
+	height: 74%;	
+	opacity:1;
+}
+
+#logo-holder3:hover .text3 {opacity:1;}
+#logo-holder3:hover .image3 {opacity:0;}
+/*4. obrzok*/
+#logo-holder4 {
+	position: relative;
+ 	float: right;
+ 	right: 8%;
+ }
+#logo-holder4 .text4 {
+	font-size: 180%;
+	padding-top: 220%;
+}
+
+#logo-holder4 .image4 {transition: opacity 0.5s ease-in-out;}
+#logo-holder4 .text4 {transition: opacity 0.5s ease-in-out;}
+#logo-holder4 .image4 {
+	position:absolute;
+	margin-top: 190%;
+	width: 120%;
+	height: 45%;	
+	opacity:1;}
+
+#logo-holder4:hover .text {opacity:1;}
+#logo-holder4:hover .image4 {opacity:0;}
+/*5 obrázok*/
+#logo-holder5 {
+	position: relative;
+ 	float: right;
+ 	left: 17.4%;
+ }
+#logo-holder5 .text5 {
+	font-size: 180%;
+	padding-top: 130%;
+	opacity: 0;
+}
+#logo-holder5 .text5 {transition: opacity 0.5s ease-in-out;}
+#logo-holder5 .image5 {transition: opacity 0.5s ease-in-out;}
+#logo-holder5 .image5 {
+	position:absolute;
+	margin-top: 115%;
+	width: 95%;
+	height: 47%;	
+	opacity:1;}
+
+#logo-holder5:hover .text5 {opacity:1;}
+#logo-holder5:hover .image5 {opacity:0;}
+/* o nás */
+#logo-holder6 {
+	position: relative;
+ 	float: right;
+ 	left: 16%;
+ }
+#logo-holder6 .text6 {
+	position: relative;
+	font-size: 180%;
+	top: 325px;
+
+}
+#logo-holder6 a:hover {
+	text-decoration: underline;
+}
+#logo-holder7 a:hover {
+	text-decoration: underline;
+}
+#logo-holder7 {
+	position: relative;
+ 	float: right;
+ 	left: 12.5%;
+ }
+#logo-holder7 .text7 {
+	position: absolute;
+	font-size: 180%;
+	top: 380px;
+	width: 200px;
+}
+
+.jazyk {
+	position: absolute;
+	right: 0px;
+	top: -5%;
+	word-spacing: 0.3em;
+	font-size: 1.6em;
+}
+
+.jazyk ul {
+	display: inline-block;
+}
+
+.jazyk ul a:hover {
+	border-bottom: none;
+}
+.jazyk ol {
+	display: inline;
+	margin-right: 0.5em;
+}
+
+.holdingcontianer{
+
+}
+.jazyk a {
+	color: black;
+}
+
+
+
+.line1 {
+	margin-top: 3%;
+	padding-top: 3%;
+	background-color: #e2beae;
+}
+.koniec {
+	position: relative;
+	top: 5000px;
+}
+.nadpis{
+	background-color:black;
+}
+.nadpis{
+	margin:0;
+	padding: 0;
+	font-family: "palatino", sans-serif;
+	
+}
+*{
+	box-sizing: border-box;
+
+	}
+.holdingcontainer{
+	max-width: 1000px;
+	display: flex;
+	background:#ffc728;
+	
+	box-sizing: border-box;
+	flex-direction: row;
+	margin:0 auto;
+	position: absolute;
+	
+
+
+}
+.internalcontainerL{
+flex: 1;
+background:#BD2C4E;
+padding: 30px;
+font-size: 20px;
+font-family: 'Roboto', sans-serif;
+margin: 2%;
+width: 426px;
+float: right;
+text-align: center;
+border:1px solid black;
+
+margin-top: 5%;
+
+}
+.internalcontainerM{
+flex: 1;
+background:#C26E5F;
+padding: 30px;
+margin: 2%;
+font-size: 20px;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+width: 426px;
+float: right;
+border:1px solid black;
+margin-top: 5%;
+
+}
+.internalcontainerR{
+	flex: 1;
+	background:#5BB585;
+	padding: 30px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin: 2%;
+	width: 426px;
+	float: right;
+	border:1px solid black;
+	margin-top: 5%;
+text-align: center;
+}
+main{
+	background:#ddd;
+	
+}
+.kolaz{
+	background:#262626;
+}
+.wrapper{
+	width: 1200px;
+	display: flex;
+	height: 70vh;
+	margin: 3% auto 0;
+
+
+}
+.single-img{
+	flex: 1;
+	margin: 0;
+	padding: 0;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-transition:all 500ms cubic-bezier(.14,.69,.93,.1);
+	-moz-transition:all 500ms cubic-bezier(.14,.69,.93,.1);
+	-ms-transition:all 500ms cubic-bezier(.14,.69,.93,.1);
+	-o-transition:all 500ms cubic-bezier(.14,.69,.93,.1);
+
+	transition:all 500ms cubic-bezier(.14,.69,.93,.1);
+}
+.single-img:hover{
+	flex-basis: 65vw;
+}
+.mesta{
+	background-color:white;
+}
+.mesta{
+	
+	padding: 0;
+	font-family: "palatino", sans-serif;
+	
+}
+h2{
+	font-size:120px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin:0;
+	background:url(porto.jpg) 50% 50%;
+	background-size: cover;
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	margin-top: 10%;
+	
+
+}
+.nadpis{
+	margin-top: 8%;
+}
+
+.wrapper2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 5%;
+}
+.single-product{
+	position: relative;
+	width: 300px;
+	height: 400px;
+	margin:10px;
+	overflow: hidden;
+	box-shadow: 0 2px 20px rgba(0,0,0,0.7);
+	transition: all .3s linear;
+}
+.single-product img {
+	width: 100%;
+	transition: all .3s linear;
+}
+.product-area{
+	position: absolute;
+	bottom: 50px;
+	right: 100%;
+	width: 100%;
+	text-align: center;
+	background-color:black;
+	transition: all .3s linear;
+
+
+}
+a{
+	text-decoration: none;
+}
+.product-text{
+	font-family:Audiowide;
+	font-weight: bold;
+	font.size: 20px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	margin:15px;
+	color: #fff;
+}
+.single-product:hover .product-area{
+	right: 0;
+}
+.single-product:hover img{
+	transform: scale(1.2);
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear:both;
+}
+*{
+	box-sizing:border-box; 
+}
+.column{
+	background-color: black;
+}
+.column{
+
+	float: left;
+	width: 32.33%;
+	padding: 3px;
+	margin-left: 0.7%;
+}
+.row:after{
+
+	content:"";
+	display: table;
+	clear: both;
+
+}
+
+.box-image{
+	background:#262626;
+}
+.box-area{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.single-box{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 300px;
+	height: auto;
+	border-radius: 4px;
+	background-color: #fff;
+	text-align: center;
+	margin:20px;
+	padding: 20px;
+	transition: .3s;
+}
+.img-area{
+	display: flex;justify-content: center;align-items:center; 
+	width: 80px;height: 80px;border:6px solid #ddd;
+	border-radius: 50;	
+	border-bottom: 10px;
+	padding:20px;
+	-webkit-background-size:cover;
+	background-size: cover;
+	background-position: center center;
+
+}
+.single-box:nth-child(1) .img-area{
+	background-image: url(vino.jpg);
+}
+.single-box:nth-child(2) .img-area{
+	background-image: url(vino.jpg);
+}
+.single-box:nth-child(3) .img-area{
+	background-image: url(vino.jpg);
+}
+.image-text{
+	color: black;
+}
+.header-text{
+	font.size: 24px;
+	font-weight: 500;
+	line-height: 48px;
+	color: black;
+}
+.img-text{
+	font-family: Poppins;
+	padding-top: 20px;
+}
+.img-text p{
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.single-box:hover{
+	background: #15C0EB;
+	color: #fff;
+}
+.prolog{
+	box-sizing: border-box;
+
+	
+
+	}
+.out-container{
+	max-width: 1000px;
+	display: flex;
+	background:#ffc728;
+	
+	box-sizing: border-box;
+	flex-direction: row;
+	margin:0 auto;
+	position: absolute;
+	width: 80%;
+	margin-bottom: 10%;
+
+}
+.in-containerT{
+flex: 1;
+background:#5BB585;
+padding: 30px;
+font-size: 20px;
+font-family: 'Roboto', sans-serif;
+float: right;
+margin-right: 14.5%;
+text-align: center;
+color: black;
+margin-top: 5%;
+width: 30%;
+height:50vh;
+}
+.in-containerZ{
+flex: 1;
+background:white;
+width: 40%;
+float: right;
+margin-top: 5%;
+height:50vh;
+
+}
+.oporte{
+	
+	height: 50vh;
+}
+
+.desimages1{
+	height: 50vh;
+}
+.ktosme{
+	font-size: 100px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif
+}/*
+.slider{
+	width: 800px;
+	height: 10vh;
+	background:url(porto.jpg);
+	margin:100px auto;
+	animation:slide 20s infinite;
+}
+@keyframes slide{
+	25%{
+		background:url(porto.jpg);
+	}
+	50%{
+		background:url(plazka.jpg);
+}
+	75%{
+		background:url(tower-belem.jpg);
+}
+	100%{
+		background:url(cina.jpg); 
+
+} 
+
+}*/
+.slider{
+	width: 75%;
+	height: 100vh;
+	margin: 50px auto;
+	position: relative;
+	box-shadow: 0px 0px 10px 3px grey;
+	overflow:hidden;
+	border:5px solid #3949ab;
+}
+.slider figure{
+	margin:0px;
+	position: relative;
+	width: 400%;
+	left:0px;
+	transition:1s ease-in-out;
+	height: 100vh;
+}
+.slider figure img{
+	width: 25%;
+	height: 100vh;
+	float: left;
+}
+.btn-next, .btn-prev{
+	position: absolute;
+	top: 45%;
+	cursor: pointer;
+	color: white;
+	background:#3949ab;
+	padding:20px;
+	font-size: 50px;
+	border:none;
+}
+.btn-next{
+	right: 0px;
+
+}
+.btn-prev{
+	left: 0px;
+}
+.foto-box{
+	height: 100vh;
+}
+
+	/* podčiarknutie na dol */
+.zauj_info_nadpis {
+	margin-top: 5%;
+	width: 100%;
+	text-align: center;
+	color:white;
+
+}
+
+.zauj_info_nadpis p {
+	font-size: 4em;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: black;
+	border:2px solid black;
+}
+
+
+.zauj_info1::after {
+	content: "";
+  	clear: both;
+  	display: table;
+}
+
+.zauj_info1_left {
+	float: left;
+	width: 50%;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.zauj_info1_left img {
+	width: 80%;
+	
+}
+
+.zauj_info1_right {
+	float: left;
+	width: 50%;
+}
+
+.zauj_info1_right li {
+	font-size: 2em;
+	padding-top: 2em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.zauj_info1_right ol {
+	text-align: center;
+	font-size: 3em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.zauj_info2 {
+	margin-top: 10%;
+}
+
+.zauj_info2::after {
+	content: "";
+  	clear: both;
+  	display: table;
+}
+
+.zauj_info2_left {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.zauj_info2_left ol {
+	text-align: center;
+	font-size: 3em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.zauj_info2_left li {
+	font-size: 2em;
+	padding-top: 2em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+.zauj_info2_right {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.zauj_info2_right img {
+	width: 85%;
+	-ms-transform: rotate(5deg);
+  	transform: rotate(5deg);
+}
+
+
+.zauj_info3 {
+	margin-top: 10%;
+}
+
+.zauj_info3::after {
+	content: "";
+  	clear: both;
+  	display: table;
+}
+
+.zauj_info3_left1 {
+	float: left;
+	width: 30%;
+	text-align: center;
+}
+
+.zauj_info3_left1 img {
+	width: 80%;
+}
+
+
+.zauj_info3_left2 {
+	float: left;
+	width: 30%;
+	text-align: center;
+}
+
+.zauj_info3_left2 img {
+	width: 80%;
+	margin-top: 25%;
+}
+
+.zauj_info3_right {
+	float: left;
+	text-align: center;
+	width: 40%;
+
+}
+
+.zauj_info3_right ol {
+	text-align: center;
+	font-size: 2em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.zauj_info3_right li {
+	font-size: 2em;
+	padding-top: 2em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.zauj_info5 {
+	margin-top:10%;
+	
+}
+
+.zauj_info5::after {
+	content: "";
+  	clear: both;
+  	display: table;
+}
+
+
+.zauj_info5_left {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+.zauj_info5_left img {
+	width: 80%;
+	height: 400px;
+	border-radius: 30%;
+}
+.zauj_info5_left p {
+	font-size: 2em;
+}
+
+.zauj_info5_middle {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+.zauj_info5_middle p {
+	font-size: 2em;
+}
+
+.zauj_info5_middle img {
+	width: 80%;
+	height: 400px;
+	border-radius: 30%;
+}
+
+.zauj_info5_right {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+.zauj_info5_right p {
+	font-size: 2em;
+}
+
+.zauj_info5_right img {
+	width: 80%;
+	height: 400px;
+	border-radius: 30%;
+}
+.kolaz{
+	background:#262626;
+}
+.wrapper{
+	width:80%;
+	
+	height: 50vh;
+	
+	flex-basis: 65vw;
+	flex-wrap: wrap;
+	margin-top: 5%;
+
+}
