@@ -612,7 +612,7 @@ padding: 1%;
 		
 		#logo-holder {
 			padding-top: 2.6%;
-			right: 35%;
+			right: 39%;
 		}
 		#logo-holder .text {
 			margin-right: 5%;
@@ -625,35 +625,37 @@ padding: 1%;
 
 		/*_____*/
 		#logo-holder2 {
-			right: 7%;
+			right: 13%;
 		}
 		#logo-holder2 .text2 {
 			margin-right: 5%;
 		}
 		#logo-holder2 .image2 {
-			
 		}
 		/*_____*/
 		#logo-holder3 {
-			margin-right: -15%;
+			margin-right: -7%;
+			margin-top: 3.5%;
 		}
 		#logo-holder3 .text3 {
-			margin-right: 5%;
+			margin-right: 0%;
+			margin-top: 3%;
 		}
 		#logo-holder3 .image3 {
-			
+			height: 152%;
 		}
 		/*_____*/
 		#logo-holder4 {
-			top: 215px;
+			top: 230px;
 			margin-right: -2%;
 		}
 		#logo-holder4 .text4 {
 			padding-top: 0%;
+			margin-top: -20%;
 		}
 		#logo-holder4 .image4 {
 			margin-top: -70%;
-			height: 370%;
+			height: 870%;
 		}
 		/*_____*/
 		#logo-holder5 {
@@ -663,12 +665,11 @@ padding: 1%;
 			height: 240px;
 		}
 		#logo-holder5 .text5 {
-			padding-top: 0%;
-			top: 300px;
+			margin-top: -190%;
 		}
 		#logo-holder5 .image5 {
-			margin-top: -33%;
-
+			margin-top: -96%;
+			height: 45%;
 		}
 		#logo-holder6 .text6 {
 			top: 290px;
